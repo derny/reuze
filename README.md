@@ -1,5 +1,4 @@
-<div id="readme" class="clearfix announce instapaper_body md" data-path="/">
-<article class="markdown-body entry-content" itemprop="mainContentOfPage">
+
 <h1>
 <a name="reuze-v101" class="anchor" href="#reuze-v101">
 <span class="mini-icon mini-icon-link"></span>
@@ -18,5 +17,3 @@ reuze v1.0.1
 </ul>
 <h2><a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="mini-icon mini-icon-link"></span></a>Acknowledgements</h2>
 <p><a href="http://www.reuze.me">Reuze.me</a> is a project by <a href="http://twitter.com/denniserny">Dennis Erny</a>.</p>
-</article>
-</div>
