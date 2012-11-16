@@ -17,6 +17,6 @@ reuze v1.0.1
 <li>Internet Explorer 8+</li>
 </ul>
 <h2><a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="mini-icon mini-icon-link"></span></a>Acknowledgements</h2>
-<p><a href="http://www.reuze.me">Reuze.me</a> is a project by <a href="http://www.twitter/denniserny">Dennis Erny</a>.</p>
+<p><a href="http://www.reuze.me">Reuze.me</a> is a project by <a href="http://twitter.com/denniserny">Dennis Erny</a>.</p>
 </article>
 </div>
