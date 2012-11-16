@@ -1,13 +1,15 @@
 /* =============================================================================
-   Base Styling
+   Base CSS (General) - A nice start for you
    ========================================================================== */
 
 * {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 
+/* HTML and Body */
 html {font-size: 62.5%;}
 body {font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;line-height: 1;color: #222;position: relative;-webkit-font-smoothing: antialiased;}
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td { margin: 0; padding: 0; font-size: 14px; font-size: 1.4rem; direction: ltr; }
-p {font-weight: normal; line-height: 1.6; margin-bottom: 17px; }
+/* Typography */
+p {font-weight: normal; line-height: 1.5; margin-bottom: 15px; }
 h1, h2, h3, h4, h5, h6 {font-weight: bold; color: #333; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px;}
 h1 {font-size: 32px; font-size: 3.2rem;}
 h2 {font-size: 28px; font-size: 2.8rem;}
@@ -17,22 +19,20 @@ h5 {font-size: 16px; font-size: 1.6rem;}
 h6 {font-size: 14px; font-size: 1.4rem;}
 em, i {font-style: italic; line-height: inherit;}
 strong, b {font-weight: bold; line-height: inherit;}
-blockquote, blockquote p {line-height: 1.5; color: #6f6f6f;}
-blockquote {margin: 0 0 17px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd;}
-blockquote cite {display: block; font-size: 13px; font-size: 1.3rem; color: #555;}
-blockquote cite:before {content: "\2014 \0020";}
-blockquote cite a, blockquote cite a:visited {color: #555;}
+/* Blockquotes */
+blockquote {padding:0 0 0 15px; margin:0 0 20px; border-left: 5px solid #eee;}
+blockquote p {margin-bottom: 0; font-size: 16px; font-size: 1.6rem; font-weight: 400; line-height: 25px;}
+/* Abbreviations */
 abbr, acronym {text-transform: uppercase; font-size: 90%; color: #222; border-bottom: 1px solid #ddd; cursor: help;}
 abbr {text-transform: none;}
-.text-left {text-align: left;}
-.text-right {text-align: right;}
-.text-center {text-align: center;}
+/* Links */
 a {color: #cc0000; text-decoration: none; transition: color .15s linear; webkit-transition: color .15s linear; -moz-transition: color .15s linear;}
 a:visited {  }
 a:hover {text-decoration: underline;cursor:pointer;}
 a:focus {outline: thin dotted;}
 a:hover, a:active {outline: 0;}
 p a, p a:visited {line-height: inherit;}
+/* Lists */
 ul, ol {font-size: 14px; font-size: 1.4rem; line-height: 1.6; margin-bottom: 17px; list-style-position: inside;}
 ul li ul, ul li ol {margin-left: 20px; margin-bottom: 0;}
 ul.square, ul.circle, ul.disc {margin-left: 17px;}
@@ -45,7 +45,8 @@ ul.disc li ul {list-style: inherit;}
 ul.no-bullet {list-style: none;}
 ul.large li {line-height: 21px;}
 ol li ul, ol li ol {margin-left: 20px; margin-bottom: 0;}
-table {background: #fff; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; margin: 0 0 18px; border: 1px solid #ddd;}
+/* Tables */
+table {background: #fff; margin: 0 0 18px; border: 1px solid #ddd;}
 table thead, table tfoot {background: #f9f9f9;}
 table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {font-size: 14px; font-size: 1.4rem; line-height: 18px; text-align: left;}
 table thead tr th, table tfoot tr td {padding: 8px 10px 9px; font-size: 16px; font-size: 1.6rem; font-weight: bold; color: #222;}
@@ -56,7 +57,7 @@ table tbody tr:nth-child(even) {background: #f9f9f9;}
 table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: none;}
 
 /* =============================================================================
-   Base CSS (News)
+   Base CSS (News Containers)
    ========================================================================== */
 
 .nc { overflow: auto; }
@@ -77,10 +78,9 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .nc footer .meta { margin-bottom: 10px; }
 .nc.image-banner .meta, .nc > * > header:first-child .meta, .nc footer .meta { width: 100%; display: inline-block !important; }
 .nc.image-banner .meta li, .nc > * > header:first-child .meta li, .nc footer .meta li { float: left; }
-.nc .meta li:after, .nc > * > header:first-child .meta li:after, .nc footer .meta li:after  { content: '\00a0\00a0\|\00a0\00a0'; }
-.nc .meta li:last-child:after, .nc > * > header:first-child .meta li:last-child:after, .nc footer .meta li:last-child:after { content: ''; }
-
-/* Header and Sub Header */
+.nc .meta li, .nc > * > header:first-child .meta li, .nc footer .meta li  { border-left: 1px solid #ccc; padding-left: 5px; margin-right: 5px; }
+.nc .meta li:first-child, .nc > * > header:first-child .meta li:first-child, .nc footer .meta li:first-child { border: none; padding-left: 0; }
+/* Header and Alternate Header */
 .nc header h2, .nc header h3, .nc header h4 {margin: 0;}
 .nc header a h2, .nc header a h3, .nc header a h4 {color: #cc0000;}
 .nc header h5, .nc header h6 {margin: 5px 0; color: #666;}
@@ -94,7 +94,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .nc .content img.align-right { float: right; margin: 5px 0 3px 15px; }
 
 /* =============================================================================
-   Container Classes (News)
+   Add-on Classes (News Containers)
    ========================================================================== */
 
 /* Columns */
@@ -107,10 +107,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 @media only screen and (max-width: 48em) {
     .nc.two-column > article, .nc.three-column > article, .nc.two-column > div, .nc.three-column > div {width: 100%; padding: 0 0 10px 0px !important; border: none; border-bottom: 1px solid #eee !important;}
 }
-@media only screen and (max-width: 30em) {
-
-    
-}
+@media only screen and (max-width: 30em) {}
 /* Image Location */
 .nc.image-banner .image-feat {position: relative; margin-bottom: 15px; display: block; float: none; width: 100% !important;}
 /* Image Border */
