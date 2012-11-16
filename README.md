@@ -1,6 +1,4 @@
 <h1>
-<a name="reuze-v101" class="anchor" href="#reuze-v101">
-</a>
 <a href="http://reuze.me">reuze</a> v1.0.1
 </h1>
 <p>Reuze is a teeny-tiny front end framework (&lt; 10KB) that makes structuring HTML and CSS for mid-to-large sized content-rich sites a breeze.</p>
