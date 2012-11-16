@@ -1,0 +1,118 @@
+/* =============================================================================
+   Base Styling
+   ========================================================================== */
+
+* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+
+html {font-size: 62.5%;}
+body {font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;line-height: 1;color: #222;position: relative;-webkit-font-smoothing: antialiased;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td { margin: 0; padding: 0; font-size: 14px; font-size: 1.4rem; direction: ltr; }
+p {font-weight: normal; line-height: 1.6; margin-bottom: 17px; }
+h1, h2, h3, h4, h5, h6 {font-weight: bold; color: #333; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px;}
+h1 {font-size: 32px; font-size: 3.2rem;}
+h2 {font-size: 28px; font-size: 2.8rem;}
+h3 {font-size: 24px; font-size: 2.4rem;}
+h4 {font-size: 20px; font-size: 2.0rem;}
+h5 {font-size: 16px; font-size: 1.6rem;}
+h6 {font-size: 14px; font-size: 1.4rem;}
+em, i {font-style: italic; line-height: inherit;}
+strong, b {font-weight: bold; line-height: inherit;}
+blockquote, blockquote p {line-height: 1.5; color: #6f6f6f;}
+blockquote {margin: 0 0 17px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd;}
+blockquote cite {display: block; font-size: 13px; font-size: 1.3rem; color: #555;}
+blockquote cite:before {content: "\2014 \0020";}
+blockquote cite a, blockquote cite a:visited {color: #555;}
+abbr, acronym {text-transform: uppercase; font-size: 90%; color: #222; border-bottom: 1px solid #ddd; cursor: help;}
+abbr {text-transform: none;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+a {color: #cc0000; text-decoration: none; transition: color .15s linear; webkit-transition: color .15s linear; -moz-transition: color .15s linear;}
+a:visited {  }
+a:hover {text-decoration: underline;cursor:pointer;}
+a:focus {outline: thin dotted;}
+a:hover, a:active {outline: 0;}
+p a, p a:visited {line-height: inherit;}
+ul, ol {font-size: 14px; font-size: 1.4rem; line-height: 1.6; margin-bottom: 17px; list-style-position: inside;}
+ul li ul, ul li ol {margin-left: 20px; margin-bottom: 0;}
+ul.square, ul.circle, ul.disc {margin-left: 17px;}
+ul.square {list-style-type: square;}
+ul.square li ul {list-style: inherit;}
+ul.circle {list-style-type: circle;}
+ul.circle li ul {list-style: inherit;}
+ul.disc {list-style-type: disc;}
+ul.disc li ul {list-style: inherit;}
+ul.no-bullet {list-style: none;}
+ul.large li {line-height: 21px;}
+ol li ul, ol li ol {margin-left: 20px; margin-bottom: 0;}
+table {background: #fff; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; margin: 0 0 18px; border: 1px solid #ddd;}
+table thead, table tfoot {background: #f9f9f9;}
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {font-size: 14px; font-size: 1.4rem; line-height: 18px; text-align: left;}
+table thead tr th, table tfoot tr td {padding: 8px 10px 9px; font-size: 16px; font-size: 1.6rem; font-weight: bold; color: #222;}
+table thead tr th:first-child, table tfoot tr td:first-child {border-left: none;}
+table thead tr th:last-child, table tfoot tr td:last-child {border-right: none;}
+table tbody tr.even, table tbody tr.alt {background: #f9f9f9;}
+table tbody tr:nth-child(even) {background: #f9f9f9;}
+table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: none;}
+
+/* =============================================================================
+   Base CSS (News)
+   ========================================================================== */
+
+.nc { overflow: auto; }
+.nc p { text-align: justify; }
+.nc > h1, .nc > h2, .nc > h3, .nc > h4, .nc > h5, .nc > h6, .nc > p { }
+.nc > article:first-child { clear: both; }
+.nc > article, .nc > div {margin: 0 0 25px 0; border-bottom: 1px solid #eee; padding-bottom: 10px; width: 100%; }
+.nc > article:last-child, .nc > div:last-child {border-bottom: none; padding-bottom: 0;}
+/* Featured Image and Captions */
+.nc .image-feat {position: relative; float: left; margin: 0 15px 3px 0;}
+.nc .image-feat p.caption {color:#999; line-height: 1.1;font-size:11px;font-size:1.1rem;padding:4px 0 0 2px; margin: 0;}
+.nc .image-feat a img {-webkit-transition-duration: 0.4s;-moz-transition-duration: 0.4s;-o-transition-duration: 0.4s;}
+.nc .image-feat a img:hover {-webkit-box-shadow:0px 0px 3px #bcbcbc;-moz-box-shadow:0px 0px 3px #bcbcbc;box-shadow:0px 0px 3px #bcbcbc;}
+/* Meta Data */
+.nc .meta { display: inline-block; margin-bottom: 5px; padding: 3px; border-top: 1px dotted #eee; border-bottom: 1px dotted #eee; line-height: 1.4; list-style-type: none; }
+.nc .meta li { float: left; font-size: 12px; font-size: 1.2rem; color: #777; }
+.nc header .meta:last-child { margin-top: 5px; }
+.nc footer .meta { margin-bottom: 10px; }
+.nc.image-banner .meta, .nc > * > header:first-child .meta, .nc footer .meta { width: 100%; display: inline-block !important; }
+.nc.image-banner .meta li, .nc > * > header:first-child .meta li, .nc footer .meta li { float: left; }
+.nc .meta li:after, .nc > * > header:first-child .meta li:after, .nc footer .meta li:after  { content: '\00a0\00a0\|\00a0\00a0'; }
+.nc .meta li:last-child:after, .nc > * > header:first-child .meta li:last-child:after, .nc footer .meta li:last-child:after { content: ''; }
+
+/* Header and Sub Header */
+.nc header h2, .nc header h3, .nc header h4 {margin: 0;}
+.nc header a h2, .nc header a h3, .nc header a h4 {color: #cc0000;}
+.nc header h5, .nc header h6 {margin: 5px 0; color: #666;}
+.nc p {margin-bottom: 10px;}
+/* Read More links and buttons */
+.nc .rm { display: block; margin-bottom: 10px; }
+.nc button.rm {padding: 5px; background: #cc0000; color: white; font-weight: bold; text-decoration: none;}
+.nc button.rm:hover {background: #dd0000;}
+/* News Articles can contain further images, floated using .align-left and .align-right */
+.nc .content img.align-left { float: left; margin: 5px 15px 3px 0; }
+.nc .content img.align-right { float: right; margin: 5px 0 3px 15px; }
+
+/* =============================================================================
+   Container Classes (News)
+   ========================================================================== */
+
+/* Columns */
+.nc.two-column > article, .nc.three-column > article, .nc.two-column > div, .nc.three-column > div {float: left; padding: 0 15px; border-right: 1px solid #eee; border-bottom: none; }
+.lt-ie9 .nc.two-column > article, .lt-ie9 .nc.three-column > article, .lt-ie9 .nc.two-column > div, .lt-ie9 .nc.three-column > div {float: left; vertical-align: top; display: inline-block; border: none; }
+.nc.two-column > article, .nc.two-column > div {width: 50%;}
+.nc.three-column > article, .nc.three-column > div {width: 33%;}
+.nc.two-column > article:nth-of-type(even), .nc.three-column > article:nth-of-type(3n), .nc.two-column > div:nth-of-type(even), .nc.three-column > div:nth-of-type(3n) { border: none; }
+.nc.two-column > article:nth-of-type(odd), .nc.three-column > article:nth-of-type(3n+1), .nc.two-column > div:nth-of-type(odd), .nc.three-column > div:nth-of-type(3n+1) { clear: left; }
+@media only screen and (max-width: 48em) {
+    .nc.two-column > article, .nc.three-column > article, .nc.two-column > div, .nc.three-column > div {width: 100%; padding: 0 0 10px 0px !important; border: none; border-bottom: 1px solid #eee !important;}
+}
+@media only screen and (max-width: 30em) {
+
+    
+}
+/* Image Location */
+.nc.image-banner .image-feat {position: relative; margin-bottom: 15px; display: block; float: none; width: 100% !important;}
+/* Image Border */
+.nc.image-border-light .image-feat img {padding: 3px; border: 1px solid #eee;}
+.nc.image-border-dark .image-feat img {padding: 0; border: 3px solid #999;}
