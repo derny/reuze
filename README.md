@@ -13,7 +13,7 @@
 &lt;!--[if IE 8]&gt; &lt;html class="no-js lt-ie9"&gt; &lt;![endif]--&gt;
 &lt;!--[if gt IE 8]&gt;&lt;!--&gt;&lt;html class="no-js"&gt;&lt;!--&lt;![endif]--&gt;</code></pre>
 
-<p>All HTML code snippets available at <a href="http://reuze.me">Reuze.me</a> include support for <a href="http://schema.org/docs/datamodel.html">RDFa Lite</a> (a subset of the Resource Description Framework). As of July 2012, this is the <a href="http://www.w3.org/TR/rdfa-lite/">official specification for machine-readable-only web page code</a>.</p>
+<p>All HTML code snippets available at <a href="http://reuze.me">Reuze.me</a> include support for <a href="http://schema.org/docs/datamodel.html">RDFa Lite</a> (a subset of the Resource Description Framework). As of July 2012, this is the <a href="http://www.w3.org/TR/rdfa-lite/">official specification</a> for machine-readable-only web page code.</p>
 
 <p>Simply include the following code in the body tag to enable RDFa:</p>
 <pre><code>vocab="http://schema.org/"</code></pre>
