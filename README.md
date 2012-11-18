@@ -4,6 +4,19 @@
 
 <p>Documentation is coming in late November... Please stay tuned</p>
 
+<h2>Getting the Most from Reuze</h2>
+<p>An optional reuze.js file is included which makes some small style adjustments for IE8 and enables the 'image-column' option.</p>
+<p>If using reuze.js you will also need to include jQuery and the following conditional comments code in your header:</p>
+
+<pre>
+<code>
+&lt;!--[if lt IE 7]&gt; &lt;html class="no-js lt-ie9 lt-ie8 lt-ie7"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 7]&gt; &lt;html class="no-js lt-ie9 lt-ie8"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 8]&gt; &lt;html class="no-js lt-ie9"&gt; &lt;![endif]--&gt;
+&lt;!--[if gt IE 8]&gt;&lt;!--&gt;&lt;html class="no-js"&gt;&lt;!--&lt;![endif]--&gt;
+</code>
+</pre>
+
 <h2>Browser Support</h2>
 <ul>
 <li>Google Chrome</li>
