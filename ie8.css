@@ -1,0 +1,6 @@
+/* IE8 Fixes - Reuze v1.01
+
+/* Columns */
+.ac.two-column > *, .ac.three-column > * { border-right: 0 !important; }
+.ac.two-column > *:first-child +*+*, .ac.two-column > *:first-child +*+*+*+*, .ac.two-column > *:first-child +*+*+*+*+*+*, .ac.two-column > *:first-child +*+*+*+*+*+*+*+*, .ac.two-column > *:first-child +*+*+*+*+*+*+*+*+*+*, .ac.two-column > *:first-child +*+*+*+*+*+*+*+*+*+*+*+* { clear: left; }
+.ac.three-column > *:first-child +*+*+*, .ac.three-column > *:first-child +*+*+*+*+*+*, .ac.three-column > *:first-child +*+*+*+*+*+*+*+*+*, .ac.three-column > *:first-child +*+*+*+*+*+*+*+*+*+*+*+*, .ac.three-column > *:first-child +*+*+*+*+*+*+*+*+*+*+*+*+*+*+* { clear: left; }
