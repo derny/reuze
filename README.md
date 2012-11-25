@@ -38,7 +38,7 @@
 
 &lt;/div&gt;</pre></code>
 
-<h2>Benefits of Reuze</h2>
+<h2>Benefits of Reuze-ing</h2>
 
 <h5>Mockup in the Browser</h5><p>Why waste valuable time in Photoshop producing boring grey-box mockups when it's possible to include a single CSS file, some basic HTML for layout, and the desired reuze content blocks to produce a live site within minutes? Look like a rock-star and deliver a working mockup in hours &mdash; not days.</p>
 
@@ -83,6 +83,13 @@
    &lt;p&gt;Headings, text and any other stuff needs to be inside the related article block&lt;/p&gt;
    &lt;article&gt;[...]&lt;/article&gt;
 &lt;/div&gt;</pre></code>
+
+<h2>Development Roadmap<h2>
+<p>The site was launched in late November 2012 with the default <strong>Article</strong> content type as it's basis. Many more will be added in the weeks and months to come. Please feel free to email me at <a href="mailto:dennis@denniserny.com>dennis@denniserny.com</a> with thoughts and suggestions on new additions.<p>
+<strong>Articles: Added November 2012</strong>
+<strong>Products: December 2012</strong>
+<strong>Events: December 2012</strong>
+<strong>Image Galleries: Jan 2013</strong>
 
 <h2>Browser Support</h2>
 <ul>
