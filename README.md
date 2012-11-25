@@ -10,29 +10,29 @@
 
 &lt;article&gt;
 
-&lt;div class="image-feat" property="image" style="width:75px;"&gt; 
-   &lt;a href="#"&gt;&lt;img src="http://placehold.it/75x75/efefef" alt="sample image" property="thumbnailUrl"&gt;&lt;/a&gt; 
-   &lt;p class="caption"&gt;This is a small image caption, 25 words or less is best.&lt;/p&gt;
-&lt;/div&gt;
+    &lt;div class="image-feat" property="image" style="width:75px;"&gt; 
+       &lt;a href="#"&gt;&lt;img src="http://placehold.it/75x75/efefef" alt="sample image" property="thumbnailUrl"&gt;&lt;/a&gt; 
+       &lt;p class="caption"&gt;This is a small image caption, 25 words or less is best.&lt;/p&gt;
+    &lt;/div&gt;
 
-&lt;header&gt; 
-&lt;a href="#"&gt;&lt;h4 property="headline"&gt;Lorem Ipsum Doior&lt;/h4&gt;&lt;/a&gt; 
-&lt;h6 property="alternativeHeadline"&gt;Sub Title&lt;/h6&gt;
+    &lt;header&gt; 
+    &lt;a href="#"&gt;&lt;h4 property="headline"&gt;Lorem Ipsum Doior&lt;/h4&gt;&lt;/a&gt; 
+    &lt;h6 property="alternativeHeadline"&gt;Sub Title&lt;/h6&gt;
 
-&lt;ul class="meta"&gt;
-   &lt;li property="datePublished"&gt;December 13th&lt;/li&gt;
-   &lt;li property="author"&gt;By: &lt;a href="#"&gt;J.Smith&lt;/a&gt;&lt;/li&gt;
-   &lt;li property="keywords"&gt;&lt;a href="#"&gt;Fiction&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/header&gt;
+    &lt;ul class="meta"&gt;
+       &lt;li property="datePublished"&gt;December 13th&lt;/li&gt;
+       &lt;li property="author"&gt;By: &lt;a href="#"&gt;J.Smith&lt;/a&gt;&lt;/li&gt;
+       &lt;li property="keywords"&gt;&lt;a href="#"&gt;Fiction&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/header&gt;
 
-&lt;div class="content" property="articleBody"&gt; 
-   &lt;p&gt;Et denique petentium reprimique mel, no quo laudem convenire mediocritatem. Has contentiones comprehensam an, per consequat necessitatibus eu. Aliquam abhorreant philosophia ut eos. Phaedrum consequat te cum. No est inermis mentitum ponderum. Debitis posidonium ex mea, ex mundi tollit imperdiet sit.&lt;/p&gt; 
-&lt;/div&gt;
+    &lt;div class="content" property="articleBody"&gt; 
+       &lt;p&gt;Et denique petentium reprimique mel, no quo laudem convenire mediocritatem. Has contentiones comprehensam an, per consequat necessitatibus eu. Aliquam abhorreant philosophia ut eos. Phaedrum consequat te cum. No est inermis mentitum ponderum. Debitis posidonium ex mea, ex mundi tollit imperdiet sit.&lt;/p&gt; 
+    &lt;/div&gt;
 
-&lt;footer&gt;
-&lt;a class="rm" href="#"&gt;Read More&lt;/a&gt;
-&lt;/footer&gt;
+    &lt;footer&gt;
+    &lt;a class="rm" href="#"&gt;Read More&lt;/a&gt;
+    &lt;/footer&gt;
 
 &lt;/article&gt;
 
