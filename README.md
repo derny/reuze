@@ -66,7 +66,7 @@
 <p>Simply include the following code in the body tag to enable RDFa:</p>
 <pre><code>&lt;body vocab="http://schema.org/"&gt;</code></pre>
 
-<p>The immediate children of Reuze content containers should be restricted to code blocks, period.</p>
+<p>The immediate children of Reuze content containers should be restricted to content blocks, period.</p>
 
 <h5>Good Developer:</h5>
 <pre><code>&lt;div class="ac" typeof="Article"&gt;
