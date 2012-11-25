@@ -44,7 +44,7 @@
 
 <h5>Chamaeleon-Like</h5><p>Reuze adapts seamlessly within other front end frameworks. Drop content containers into Foundation columns, Bootstrap spans, or, 960 grids and watch 'em go. Containers are completely responsive out of the box.</p>
 
-<h5>Backend/Frontend Harmony</h5><p>Did the front end lead just run out for a latte or phone in sick because it's launch day in Cupertino? Not to worry, back end devs can simply arrange content at reuze.me to mirror functional project specs and start building off the provided HTML5 code blocks &mdash; safe in the knowledge that only the CSS will change later.</p>
+<h5>Backend/Frontend Harmony</h5><p>Did the front end lead just run out for a latte or phone in sick because it's launch day in Cupertino? Not to worry, back end devs can simply arrange content at reuze.me to mirror functional project specs and start building out their Wordpress loops or Kentico transformations off the provided HTML5 code blocks &mdash; safe in the knowledge that only the CSS will change later.</p>
 
 <h5>Ridiculously Simple Interface</h5><p>No complicated drag-and-drop horror-show. You select from straight-forward content options on the left of the screen and watch the HTML and live content view update in real time. You can copy-and-paste, right?</p>
 
