@@ -24,7 +24,6 @@
    &lt;li property="author"&gt;By: &lt;a href="#"&gt;J.Smith&lt;/a&gt;&lt;/li&gt;
    &lt;li property="keywords"&gt;&lt;a href="#"&gt;Fiction&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;/header&gt;
 
 &lt;div class="content" property="articleBody"&gt; 
