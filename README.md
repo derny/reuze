@@ -84,12 +84,12 @@
    &lt;article&gt;[...]&lt;/article&gt;
 &lt;/div&gt;</pre></code>
 
-<h2>Development Roadmap<h2>
+<h2>Development Roadmap</h2>
 <p>The site was launched in late November 2012 with the default <strong>Article</strong> content type as it's basis. Many more will be added in the weeks and months to come. Please feel free to email me at <a href="mailto:dennis@denniserny.com">dennis@denniserny.com</a> with thoughts and suggestions on new additions.<p>
-<h6>Articles: Added November 2012</h6>
-<h6><strong>Products: December 2012</h6>
-<h6>Events: December 2012</h6>
-<h6>Image Galleries: Jan 2013</h6>
+<strong>Articles:</strong> Added November 2012
+<strong>Products:</strong> December 2012
+<strong>Events:</strong> December 2012
+<strong>Image Galleries:</strong> Jan 2013
 
 <h2>Browser Support</h2>
 <ul>
