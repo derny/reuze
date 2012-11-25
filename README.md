@@ -66,6 +66,24 @@
 <p>Simply include the following code in the body tag to enable RDFa:</p>
 <pre><code>&lt;body vocab="http://schema.org/"&gt;</code></pre>
 
+<p>The immediate children of Reuze content containers should be restricted to code blocks, period.</p>
+
+<h5>Good Developer:</h5>
+<pre><code>&lt;div class="ac" typeof="Article"&gt;
+   &lt;article&gt;[...]&lt;/article&gt;
+   &lt;article&gt;[...]&lt;/article&gt;
+   &lt;article&gt;[...]&lt;/article&gt;
+&lt;/div&gt;</pre></code>
+
+<h5>Naughty Developer:</h5>
+<pre><code>&lt;div class="ac" typeof="Article"&gt;
+   &lt;h2&gt;I am a title that should come before the ac Div&lt;/h2&gt;
+   &lt;article&gt;[...]&lt;/article&gt;
+   &lt;article&gt;[...]&lt;/article&gt;
+   &lt;p&gt;Headings, text and any other stuff needs to be inside the related article block&lt;/p&gt;
+   &lt;article&gt;[...]&lt;/article&gt;
+&lt;/div&gt;</pre></code>
+
 <h2>Browser Support</h2>
 <ul>
 <li>Google Chrome</li>
