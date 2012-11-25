@@ -46,7 +46,7 @@
 
 <h5>Backend/Frontend Harmony</h5><p>Did the front end lead just run out for a latte or phone in sick because it's launch day in Cupertino? Not to worry, back end devs can simply arrange content at reuze.me to mirror functional project specs and start building off the provided HTML5 code blocks &mdash; safe in the knowledge that only the CSS will change later.</p>
 
-<h5>Ridiculously Simple Interface</h5><p>No complicated drag-and-drop horror-show. You select from straight-forward content options on the left and watch the HTML and live content view update in real time. You can copy-and-paste, right?</p>
+<h5>Ridiculously Simple Interface</h5><p>No complicated drag-and-drop horror-show. You select from straight-forward content options on the left of the screen and watch the HTML and live content view update in real time. You can copy-and-paste, right?</p>
 
 <h5>Clean, Semantic HTML5</h5><p>Reuze produces code that takes advantage of the latest HTML5 and <a href="http://schema.org/docs/datamodel.html">RDFa Lite</a> structures. It's future-friendly for the next evolution of browsers, screen-readers and mobile devices.</p>
 
