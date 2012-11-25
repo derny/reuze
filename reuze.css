@@ -66,7 +66,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac > * { float: left; display: table; margin: 0 0 25px 0; border-bottom: 1px solid #eee; padding-bottom: 10px; }
 .ac > *:last-child { border-bottom: none; padding-bottom: 0; }
 /* Featured Image and Captions */
-.ac .image-feat { position: relative; float: left; margin: 3px 15px 5px 0; }
+.ac .image-feat { position: relative; float: left; margin: 5px 15px 5px 0; }
 .ac .image-feat p.caption { color:#999; line-height: 1.1;font-size:11px;font-size:1.1rem;padding:4px 0 0 2px; margin: 0; }
 .ac .image-feat a img { -webkit-transition-duration: 0.4s;-moz-transition-duration: 0.4s;-o-transition-duration: 0.4s; }
 .ac .image-feat a img:hover {-webkit-box-shadow:0px 0px 3px #bcbcbc;-moz-box-shadow:0px 0px 3px #bcbcbc;box-shadow:0px 0px 3px #bcbcbc; }
@@ -87,7 +87,8 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac p, .ac table, .ac blockquote, .ac ul, .ac ol { margin-bottom: 10px; overflow: hidden; }
 /* Read More links and Buttons */
 .ac .rm { display: block; margin-bottom: 10px; }
-.ac button.rm { padding: 5px; background: #cc0000; color: white; font-weight: bold; text-decoration: none; }
+.ac .rm:after { padding-left: 3px; content: "\00bb"; }
+.ac button.rm { padding: 5px; background: #cc0000; color: white; text-decoration: none; }
 .ac button.rm:hover { background: #dd0000; }
 /* News Articles can contain further images, floated using .align-left and .align-right */
 .ac .content img.align-left { float: left; margin: 5px 15px 3px 0; }
