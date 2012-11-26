@@ -1,6 +1,6 @@
 <h1><a href="http://reuze.me">reuze</a> v1.0.1</h1>
 
-<p>Reuze is a teeny-tiny front end framework (CSS &lt; 15KB) that makes structuring HTML and CSS for mid-to-large sized content-rich sites a breeze. It plays nice with other front end frameworks such as Foundation and Boostrap but also works equally well on it's own.</p>
+<p>Reuze is a teeny-tiny front end framework (&lt; 10KB at time of writing) that makes structuring HTML and CSS for mid-to-large sized content-rich sites a breeze. It plays nice with other front end frameworks such as Foundation and Boostrap but also works equally well on it's own.</p>
 
 <p>Simply visit <a href="http://reuze.me">Reuze.me</a> to structure HTML5 code blocks and include the CSS files found here. Code blocks are RDFa Lite compliant and are designed to sit inside a wrapping container with a class that denotes the content type (Articles for instance are wrapped in a Div with a class of 'ac').</p>
 
