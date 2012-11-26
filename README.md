@@ -54,6 +54,18 @@
 
 <h5>No Javascript</h5><p>This framework places substance above style &mdash; no reliance on Javascript; minimal base styling and full support back to IE8.</p>
 
+<h2>Customizing Reuze</h2>
+
+<p>Reuze is all about creating a consistent framework for delivering similar content in a multitude of ways and provides only the most basic of styling. These styles can be easily modified or built on by either targeting content types, or, individual blocks within the type itself. Let me give you some examples:</p>
+
+<pre><code>.ac .rm { color: #333; }</pre></code>
+
+This changes the color of all 'read-more' links for Article content across the entire site. (.ac)
+
+<pre><code>.ac article.home h1  { color: #111; font-size: 3.8rem; }</pre></code>
+
+<p>Perhaps you'll want to assign a class to articles that display on the landing page of a site (.home) so you can style headings differently.</p>
+
 <h2>Getting the Most from Reuze</h2>
 <p>In order for things to look neat and tidy in IE8, be sure to include the following in the document header AFTER the reuze.css file.</p>
 
