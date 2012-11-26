@@ -40,7 +40,7 @@
 
 <h2>Benefits of Reuze-ing</h2>
 
-<h5>A Small Footprint - Ideal for Big Sites</h5><p>Need to build a complex content-rich site with a few thousand pages and a multitude of layout variations? Reuze has your back with a CSS file that is < 15kb &mdash; uncompressed. More efficient CSS means easier maintenance and a faster-loading site which is good for both you and the client.</p>
+<h5>A Small Footprint - Ideal for Big Sites</h5><p>Need to build a complex, content-rich site with a few thousand pages and a multitude of layout variations? Reuze has your back with a CSS file that is < 15kb &mdash; uncompressed. More efficient CSS means easier maintenance and a faster-loading site which is good for both you and the client.</p>
 
 <h5>Backend/Frontend Harmony</h5><p>Did the front end lead just run out for a latte or phone in sick because it's launch day in Cupertino? Not to worry, back end devs can simply arrange content at reuze.me to mirror functional project specs and start building out their Wordpress loops or Kentico transformations off the provided HTML5 code blocks &mdash; safe in the knowledge that only the CSS will change later.</p>
 
@@ -52,7 +52,7 @@
 
 <h5>Clean, Semantic HTML5</h5><p>Reuze produces code that takes advantage of the latest HTML5 and <a href="http://schema.org/docs/datamodel.html">RDFa Lite</a> structures. It's future-friendly for the next evolution of browsers, screen-readers and mobile devices.</p>
 
-<h5>No Javascript</h5><p>This framework places substance above style &mdash; no reliance on any Javascript, minimal base styling and full support back to IE8.</p>
+<h5>No Javascript</h5><p>This framework places substance above style &mdash; no reliance on Javascript; minimal base styling and full support back to IE8.</p>
 
 <h2>Getting the Most from Reuze</h2>
 <p>In order for things to look neat and tidy in IE8, be sure to include the following in the document header AFTER the reuze.css file.</p>
