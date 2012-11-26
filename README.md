@@ -56,7 +56,7 @@
 
 <h2>Customizing Reuze</h2>
 
-<p>Reuze is all about creating a consistent framework for delivering similar content in a multitude of ways using the smallest amount of CSS code possible. By design, it only provides the most basic of styling. These styles can be easily modified or built on by either targeting content types, or, individual blocks within the type itself. Let me give you some examples:</p>
+<p>Reuze is all about creating a consistent framework for delivering similar content in a multitude of ways using the smallest amount of CSS code possible. By design, it only provides the most basic of styling. These styles can be easily modified or built upon by targeting content types, or, individual blocks within the type itself. Let me give you some examples:</p>
 
 <pre><code>.ac .rm { color: #333; }</pre></code>
 
