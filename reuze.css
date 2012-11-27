@@ -87,7 +87,8 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac p, .ac table, .ac blockquote, .ac ul, .ac ol { margin-bottom: 10px; overflow: hidden; }
 /* Read More links and Buttons */
 .ac .rm { display: block; margin-bottom: 10px; }
-.ac .rm:after { padding-left: 3px; content: "\00bb"; }
+.ac .rm:after { content: " \00bb"; }
+.ac .rm:after:hover { text-decoration: none;}
 .ac button.rm { padding: 5px; background: #cc0000; color: white; text-decoration: none; }
 .ac button.rm:hover { background: #dd0000; }
 /* News Articles can contain further images, floated using .align-left and .align-right */
