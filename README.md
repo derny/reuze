@@ -50,7 +50,7 @@
 
 <h5>Ridiculously Simple Interface</h5><p>No complicated drag-and-drop horror-show. You select from straight-forward content options on the left of the screen and watch the HTML and live content view update in real time. You can copy-and-paste, right?</p>
 
-<h5>Clean, Semantic HTML5</h5><p>Reuze produces code that takes advantage of the latest HTML5 and <a href="http://schema.org/docs/datamodel.html">RDFa Lite</a> structures. It's future-friendly for the next evolution of browsers, screen-readers and mobile devices.</p>
+<h5>Clean, Semantic HTML5</h5><p>Reuze produces code that takes advantage of the latest HTML5 and <a href="http://manu.sporny.org/2012/mythical-differences/">RDFa Lite</a> structures. It's future-friendly for the next evolution of browsers, screen-readers and mobile devices.</p>
 
 <h5>No Javascript</h5><p>This framework places substance above style &mdash; no reliance on Javascript; minimal base styling and full support back to IE8.</p>
 
