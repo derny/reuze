@@ -21,8 +21,10 @@ h6 {font-size: 13px; font-size: 1.3rem;}
 em, i {font-style: italic; line-height: inherit;}
 strong, b {font-weight: bold; line-height: inherit;}
 /* Blockquotes */
-blockquote {padding:0 0 0 15px; margin:0 0 20px; border-left: 5px solid #eee;}
-blockquote p {margin-bottom: 0; font-size: 16px; font-size: 1.6rem; font-weight: 400; line-height: 25px;}
+blockquote { padding:0 0 0 5px; margin:0 0 20px 10px; border-left: 5px solid #eee; width: 90%; }
+blockquote p { padding-top: 10px; font-size: 15px; font-size: 1.5rem; font-weight: bold; line-height: 25px; color: #999; font-style: italic; }
+blockquote p:before { content: "\201C"; }
+blockquote p:first-letter { float: left; margin: 5px 10px 0 0; font-size: 60px; font-size: 6rem; font-weight: bold; }
 /* Abbreviations */
 abbr, acronym {text-transform: uppercase; font-size: 90%; color: #222; border-bottom: 1px solid #ddd; cursor: help;}
 abbr {text-transform: none;}
@@ -34,8 +36,8 @@ a:focus {outline: thin dotted;}
 a:hover, a:active {outline: 0;}
 p a, p a:visited {line-height: inherit;}
 /* Lists */
-ul, ol {font-size: 14px; font-size: 1.4rem; line-height: 1.6; margin-bottom: 17px; list-style-position: inside;}
-ul li ul, ul li ol {margin-left: 20px; margin-bottom: 0;}
+ul, ol {font-size: 14px; font-size: 1.4rem; line-height: 1.6; margin: 0 0 17px 10px; list-style-position: inside; }
+ul li ul, ul li ol, ol li ul, ol li ol {margin-left: 20px; margin-bottom: 0;}
 ul.square, ul.circle, ul.disc {margin-left: 17px;}
 ul.square {list-style-type: square;}
 ul.square li ul {list-style: inherit;}
@@ -45,7 +47,6 @@ ul.disc {list-style-type: disc;}
 ul.disc li ul {list-style: inherit;}
 ul.no-bullet {list-style: none;}
 ul.large li {line-height: 21px;}
-ol li ul, ol li ol {margin-left: 20px; margin-bottom: 0;}
 /* Tables */
 table {background: #fff; margin: 0 0 18px; border: 1px solid #ddd;}
 table thead, table tfoot {background: #f9f9f9;}
@@ -91,14 +92,16 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac .rm:after:hover { text-decoration: none;}
 .ac button.rm { padding: 5px; background: #cc0000; color: white; text-decoration: none; }
 .ac button.rm:hover { background: #dd0000; }
-/* News Articles can contain further images, floated using .align-left and .align-right */
-.ac .content img.align-left { float: left; margin: 5px 15px 3px 0; }
-.ac .content img.align-right { float: right; margin: 5px 0 3px 15px; }
+/* Articles can contain further images, floated using .align-left and .align-right */
+.ac .content img.align-left { float: left; margin: 5px 15px 3px 0; vertical-align: top; }
+.ac .content img.align-right { float: right; margin: 5px 0 3px 15px; vertical-align: top; }
 
 /* =============================================================================
    Add-on Classes (Article Containers)
    ========================================================================== */
 
+/* Detail (1 Block) */
+.ac.detail footer { margin-left: 0 !important; }
 /* Columns */
 .ac.two-column > *, .ac.three-column > * { float: left; padding: 0 15px; border-right: 1px dotted #eee; border-bottom: 0; }
 .ac.two-column > * { width: 50%; }
