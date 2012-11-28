@@ -96,6 +96,17 @@ This changes the color of all 'read-more' links for Article content across the e
    &lt;article&gt;[...]&lt;/article&gt;
 &lt;/div&gt;</pre></code>
 
+<h2>Inline Styles</h2>
+
+<p>My general goal of building a robust CSS3/HTML5 framework that does not rely on any Javascript means that in a handful of situations, it's necessary to utilize inline styles that dynamically set widths and margins of content using backend methods.</p>
+<p>An example of this is forcing the footer of an article to align itself to the text block above, when a featured image is in the default position (left-aligned). The amount of margin required is calculated by taking the width of the image + 15px.</p>
+
+<pre><code>&lt;footer style="margin-left:90px;"&gt;
+&lt;a class="rm" href="#"&gt;Read More&lt;/a&gt;
+&lt;/footer&gt;</pre></code>
+
+<p>If Reuze is being used within the context of a CMS such as Wordpress or Kentico, it's a simple matter of injecting the actual width of the featured image + 15px using PHP or ASP.net. It's also a simple matter to hardcode the margin by adding the CSS rule: <em>.ac footer { margin-left: ??px; }</em> when working outside a CMS or in the situation where the image width is going to always be the same.</p>
+
 <h2>Development Roadmap</h2>
 <p>The site was launched in late November 2012 with the default <strong>Article</strong> content type as it's basis. Many more will be added in the weeks and months to come. Please feel free to email me at <a href="mailto:dennis@denniserny.com">dennis@denniserny.com</a> with thoughts and suggestions on new additions.<p>
 <ul>
