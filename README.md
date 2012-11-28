@@ -98,10 +98,10 @@ This changes the color of all 'read-more' links for Article content across the e
 
 <h2>Inline Styles</h2>
 
-<p>My general goal of building a robust CSS3/HTML5 framework that does not rely on any Javascript means that in a handful of situations, it's necessary to utilize inline styles that dynamically set widths and margins of content using backend methods.</p>
+<p>My ambitious goal of building a robust CSS3/HTML5 framework that does not rely on any Javascript means that in a handful of situations, it's necessary to utilize in-line styles that can dynamically set widths and margins of content using backend methods.</p>
 <p>An example of this is forcing the footer of an article to align itself to the text block above, when a featured image is in the default position (left-aligned). The amount of margin required is calculated by taking the width of the image + 15px.</p>
 
-<pre><code>&lt;footer style="margin-left:90px;"&gt;
+<pre><code>&lt;footer style="margin-left:90px;"&gt; /* Image is 75x75 px */
 &lt;a class="rm" href="#"&gt;Read More&lt;/a&gt;
 &lt;/footer&gt;</pre></code>
 
