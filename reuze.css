@@ -17,7 +17,7 @@ h2 {font-size: 28px; font-size: 2.8rem;}
 h3 {font-size: 24px; font-size: 2.4rem;}
 h4 {font-size: 20px; font-size: 2.0rem;}
 h5 {font-size: 16px; font-size: 1.6rem;}
-h6 {font-size: 13px; font-size: 1.3rem;}
+h6 {font-size: 14px; font-size: 1.4rem;}
 em, i {font-style: italic; line-height: inherit;}
 strong, b {font-weight: bold; line-height: inherit;}
 /* Blockquotes */
@@ -79,12 +79,11 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac footer .meta { margin-bottom: 10px; }
 .ac.image-banner .meta, .ac > * > header:first-child .meta, .ac footer .meta { width: 100%; display: inline-block !important; }
 .ac.image-banner .meta li, .ac > * > header:first-child .meta li, .ac footer .meta li { float: left; }
-.ac .meta li, .ac > * > header:first-child .meta li, .ac footer .meta li  { border-left: 1px solid #ccc; padding-left: 5px; margin-right: 5px; }
+.ac .meta li, .ac > * > header:first-child .meta li, .ac footer .meta li  { border-left: 1px solid #ccc; padding-left: 8px; margin-right: 8px; }
 .ac .meta li:first-child, .ac > * > header:first-child .meta li:first-child, .ac footer .meta li:first-child { border: none; padding-left: 0; }
 /* Header and Alternate Header */
-.ac header h2, .ac header h3, .ac header h4, .ac header h5, .ac header h6 {margin: 0 0 5px 0;}
-.ac header a h2, .ac header a h3, .ac header a h4 {color: #cc0000;}
-.ac header h5, .ac header h6 { color: #666;}
+.ac header h2 {margin: 0 0 5px 0;}.ac header h3, .ac header h4 { margin: 1px 0 5px 0; }.ac header h5, .ac header h6 { margin: 3px 0 5px 0; }
+.ac header a h2.title, .ac header a h3.title, .ac header a h4.title, .ac header a h5.title, .ac header a h6.title {color: #cc0000;}.ac header h5.subtitle, .ac header h6.subtitle { color: #666;}
 .ac p, .ac table, .ac blockquote, .ac ul, .ac ol { margin-bottom: 10px; overflow: hidden; }
 /* Read More links and Buttons */
 .ac .rm { display: block; margin-bottom: 10px; }
