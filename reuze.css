@@ -21,10 +21,9 @@ h6 {font-size: 14px; font-size: 1.4rem;}
 em, i {font-style: italic; line-height: inherit;}
 strong, b {font-weight: bold; line-height: inherit;}
 /* Blockquotes */
-blockquote { padding:0 0 0 5px; margin:0 0 20px 10px; border-left: 5px solid #eee; width: 90%; }
-blockquote p { padding-top: 10px; font-size: 15px; font-size: 1.5rem; font-weight: bold; line-height: 25px; color: #999; font-style: italic; }
-blockquote p:before { content: "\201C"; }
-blockquote p:first-letter { float: left; margin: 5px 10px 0 0; font-size: 60px; font-size: 6rem; font-weight: bold; }
+blockquote { margin:0 15px 15px 15px; border-left: 3px solid #eee; }
+blockquote p { margin-left: 15px; padding-top: 10px; font-size: 15px; font-size: 1.5rem; font-weight: bold; line-height: 24px; color: #999; font-style: italic; }
+blockquote p:before, blockquote p:after { font-size: 24px; font-size: 2.5rem; vertical-align: middle; }blockquote p:before { content: "\201C\0020"; }blockquote p:after { content: "\0020\201D"; }
 /* Abbreviations */
 abbr, acronym {text-transform: uppercase; font-size: 90%; color: #222; border-bottom: 1px solid #ddd; cursor: help;}
 abbr {text-transform: none;}
@@ -91,6 +90,8 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac .rm:after:hover { text-decoration: none;}
 .ac button.rm { padding: 5px; background: #cc0000; color: white; text-decoration: none; }
 .ac button.rm:hover { background: #dd0000; }
+/* Social Media */
+.ac .social-media { margin: 2px 0 4px 0; }
 /* Articles can contain further images, floated using .align-left and .align-right */
 .ac .content img.align-left { float: left; margin: 5px 15px 3px 0; vertical-align: top; }
 .ac .content img.align-right { float: right; margin: 5px 0 3px 15px; vertical-align: top; }
@@ -99,14 +100,17 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
    Add-on Classes (Article Containers)
    ========================================================================== */
 
-/* Detail (1 Block) */
-.ac.detail footer { margin-left: 0 !important; }
+/* Detail Mode */
+.ac.detail footer { margin-left: 0 !important; }.ac.detail .content { margin: 5px 0 10px 0; }
+.ac.detail p, .ac.detail table, .ac.detail blockquote, .ac.detail ul, .ac.detail ol { overflow: visible; }
 /* Columns */
 .ac.two-column > *, .ac.three-column > * { float: left; padding: 0 15px; border-right: 1px dotted #eee; border-bottom: 0; }
-.ac.two-column > * { width: 50%; }
-.ac.three-column > * { width: 33%; }
+.ac.two-column > * { width: 50%; }.ac.three-column > * { width: 33%; }
 .ac.two-column > *:nth-child(even), .ac.three-column > *:nth-child(3n) { border-right: 0; }
 .ac.two-column > *:nth-child(odd), .ac.three-column > *:nth-child(3n+1) { clear: left; }
+.ac.detail.two-column > *, .ac.detail.three-column > * { width: 100%; border: none; }
+.ac.detail.two-column .content, .ac.detail.three-column .content { -webkit-column-rule: 1px solid #eee; -moz-column-rule: 1px solid #eee; column-rule: 1px solid #eee; -webkit-column-gap: 30px; -moz-column-gap: 30px; column-gap: 30px;}
+.ac.detail.two-column .content { -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; }.ac.detail.three-column .content { -webkit-column-count: 3; -moz-column-count: 3; column-count: 3; }
 @media only screen and (max-width: 48em) {
     .ac.two-column > *, .ac.three-column > * { width: 100%; padding: 0 0 10px 0px !important; border: none; border-bottom: 1px solid #eee !important; }
 }
