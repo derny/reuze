@@ -22,7 +22,7 @@ em, i {font-style: italic; line-height: inherit;}
 strong, b {font-weight: bold; line-height: inherit;}
 /* Blockquotes */
 blockquote { margin:0 15px 15px 15px; border-left: 3px solid #eee; }
-blockquote p { margin-left: 15px; padding-top: 10px; font-size: 15px; font-size: 1.5rem; font-weight: bold; line-height: 24px; color: #999; font-style: italic; }
+blockquote p { text-align: left !important; margin-left: 15px; padding-top: 10px; font-size: 15px; font-size: 1.5rem; font-weight: bold; line-height: 24px; color: #999; font-style: italic; }
 blockquote p:before, blockquote p:after { font-size: 24px; font-size: 2.5rem; vertical-align: middle; }blockquote p:before { content: "\201C\0020"; }blockquote p:after { content: "\0020\201D"; }
 /* Abbreviations */
 abbr, acronym {text-transform: uppercase; font-size: 90%; color: #222; border-bottom: 1px solid #ddd; cursor: help;}
@@ -62,7 +62,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
    ========================================================================== */
 
 .ac { overflow: auto; padding-top: 25px; }
-.ac p { text-align: justify; }
+.ac p { text-align: justify; }.ac.three-column p { text-align: left; }
 .ac > * { float: left; margin: 0 0 25px 0; border-bottom: 1px solid #eee; padding-bottom: 10px; }
 .ac > *:last-child { border-bottom: none; padding-bottom: 0; }
 /* Featured Image and Captions */
