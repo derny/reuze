@@ -40,7 +40,7 @@
 
 <h2>Benefits of Reuze-ing</h2>
 
-<h5>A Small Footprint - Ideal for Big Sites</h5><p>Need to build a complex, content-rich site with a few thousand pages and a multitude of layout variations? Reuze has your back with a CSS file that is (at time of writing) &lt; 10kb &mdash; uncompressed. More efficient CSS means easier maintenance and a faster-loading site which is good for both you and the client.</p>
+<h5>A Small Footprint &mdash; Ideal for Big Sites</h5><p>Need to build a complex, content-rich site with a few thousand pages and a multitude of layout variations? Reuze has your back with a CSS file that is (at time of writing) &lt; 10kb &mdash; uncompressed. More efficient CSS means easier maintenance and a faster-loading site which is good for both you and the client.</p>
 
 <h5>Backend/Frontend Harmony</h5><p>Did the front end lead just run out for a latte or phone in sick because it's launch day in Cupertino? Not to worry, back end devs can simply arrange content at reuze.me to mirror functional project specs and start building out their Wordpress loops or Kentico transformations off the provided HTML5 code blocks &mdash; safe in the knowledge that only the CSS will change later.</p>
 

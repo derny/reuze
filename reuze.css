@@ -59,8 +59,8 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac > * { border-bottom: 1px dotted #ddd; padding: 20px 25px 15px 25px; }
 .ac.image-banner > * { padding-bottom: 5px; }
 .ac > *:last-child { border-bottom: none; padding-bottom: 0; }
-/* Genre */
-.ac .genre { text-transform: uppercase; border-bottom: 1px solid #ccc; margin: 0 0 10px 0; padding-bottom: 3px; color: #555; }
+/* Category */
+.ac .category { text-transform: uppercase; border-bottom: 1px solid #ccc; margin: 0 0 10px 0; padding-bottom: 3px; color: #666; }
 /* Headings, Paragraphs etc */
 .ac header h2, .ac header h3, .ac header h4, .ac header h5, .ac header h6 {margin: 0 0 5px 0 !important;}
 .ac h2.title, .ac h3.title, .ac h4.title, .ac h5.title, .ac h6.title {color: #cc0000;}.ac h5.subtitle, .ac h6.subtitle { color: #666;}
@@ -94,9 +94,10 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
    Add-on Classes (Article Containers)
    ========================================================================== */
 
+/* Sidebars */
+.ac.sidebar > * { width: 100% !important; border-right: none; border-bottom: 1px dotted #ddd !important; }.ac.sidebar p { overflow: visible; }.ac.sidebar footer { margin-left: 0 !important; }.ac.sidebar > *:last-child { border-bottom: none !important; }
 /* Detail View */
-.ac.detail footer { margin-left: 0 !important; }
-.ac.detail p, .ac.detail table, .ac.detail blockquote, .ac.detail ul, .ac.detail ol { overflow: visible; }
+.ac.detail footer { margin-left: 0 !important; }.ac.detail p, .ac.detail table, .ac.detail blockquote, .ac.detail ul, .ac.detail ol { overflow: visible; }
 /* Columns and Grid */
 .ac.thumb h2.title, .ac.thumb h3.title, .ac.thumb h4.title, .ac.thumb h5.title, .ac.thumb h6.title, .ac.thumb header > a { color: #333; }
 .ac.two-column > * { width: 50%; }.ac.three-column > *, .ac.thumb > * { width: 33%; }
