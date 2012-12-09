@@ -1,4 +1,4 @@
-<h1><a href="http://reuze.me">reuze</a> v1.0.1</h1>
+<h1><a href="http://reuze.me">reuze</a> v1.1</h1>
 
 <p>Reuze is a teeny-tiny front end framework (&lt; 10KB at time of writing) that makes structuring HTML and CSS for mid-to-large sized content-rich sites a breeze. It plays nice with other front end frameworks such as Foundation and Boostrap but also works equally well on it's own.</p>
 
