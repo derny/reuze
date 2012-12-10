@@ -56,6 +56,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 
 /* Container */
 .ac { overflow: auto; padding: 10px 0 20px 0; }
+.ac > * { *zoom: 1; }.ac > *:before, .ac > *:after { content: ""; display: table; }.ac > *:after { clear: both; }
 .ac > * { border-bottom: 1px dotted #ddd; padding: 20px 25px 15px 25px; }
 .ac.image-banner > * { padding-bottom: 5px; }
 .ac > *:last-child { border-bottom: none; padding-bottom: 0; }
