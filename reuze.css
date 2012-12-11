@@ -56,9 +56,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 
 /* Container */
 .ac { overflow: auto; padding: 10px 0 20px 0; }
-.ac > * { *zoom: 1; }.ac > *:before, .ac > *:after { content: ""; display: table; }.ac > *:after { clear: both; }
-.ac > * { border-bottom: 1px dotted #ddd; padding: 20px 25px 15px 25px; }
-.ac.image-banner > * { padding-bottom: 5px; }
+.ac > * { float: left; border-bottom: 1px dotted #ddd; padding: 20px 25px 15px 25px; }
 .ac > *:last-child { border-bottom: none; padding-bottom: 0; }
 /* Category */
 .ac .category { text-transform: uppercase; border-bottom: 1px solid #ccc; margin: 0 0 10px 0; padding-bottom: 3px; color: #666; }
@@ -99,7 +97,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac.sidebar > * { width: 100% !important; border-right: none; border-bottom: 1px dotted #ddd !important; }.ac.sidebar p { overflow: visible; }.ac.sidebar footer { margin-left: 0 !important; }.ac.sidebar > *:last-child { border-bottom: none !important; }
 /* Detail View */
 .ac.detail footer { margin-left: 0 !important; }.ac.detail p, .ac.detail table, .ac.detail blockquote, .ac.detail ul, .ac.detail ol { overflow: visible; }
-/* Columns and Grid */
+/* Columns and Thumb Layouts */
 .ac.thumb h2.title, .ac.thumb h3.title, .ac.thumb h4.title, .ac.thumb h5.title, .ac.thumb h6.title, .ac.thumb header > a { color: #333; }
 .ac.two-column > * { width: 50%; }.ac.three-column > *, .ac.thumb > * { width: 33%; }
 .ac.two-column > *, .ac.three-column > *, .ac.thumb > * { float: left; border-right: 1px dotted #ddd; border-bottom: 0; }
@@ -127,7 +125,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
     .ac.two-column > *, .ac.three-column > *, .ac.thumb > * { width: 100%; border: none; border-bottom: 1px dotted #ddd; }
 }
 /* Image Location */
-.ac.image-banner .image-feat {position: relative; margin-bottom: 10px; display: block; float: none; width: 100% !important;}
+.ac.image-banner > * { padding-bottom: 5px; }.ac.image-banner .image-feat {position: relative; margin-bottom: 10px; display: block; float: none; width: 100% !important;}
 /* Image Border */
 .ac.image-border-light .image-feat img { padding: 3px; border: 1px solid #eee; }
 .ac.image-border-dark .image-feat img { padding: 0; border: 3px solid #999; }
