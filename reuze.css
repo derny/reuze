@@ -55,8 +55,8 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
    ========================================================================== */
 
 /* Container */
-.ac { overflow: auto; padding: 10px; }
-.ac > * { float: left; border-bottom: 1px dotted #ddd; padding: 0 15px 10px 15px; margin-top: 15px; }
+.ac { overflow: auto; padding: 10px 0; }
+.ac > * { float: left; border-bottom: 1px dotted #ddd; padding: 0 20px 10px 20px; margin-top: 20px; }
 .ac > *:last-child { border-bottom: none; }
 /* Category */
 .ac .category { text-transform: uppercase; border-bottom: 1px solid #ccc; margin: 0 0 10px 0; padding-bottom: 3px; color: #666; }
@@ -80,7 +80,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac .meta li, .ac > * > header:first-child .meta li, .ac footer .meta li  { border-left: 1px solid #ccc; padding-left: 6px; margin-right: 6px; }
 .ac .meta li:first-child, .ac > * > header:first-child .meta li:first-child, .ac footer .meta li:first-child { border: none; padding-left: 0; }
 /* Read More links and Buttons */
-.ac .rm { display: block; font-size: 13px; font-size: 1.3rem; }
+.ac .rm { display: block; font-size: 13px; font-size: 1.3rem; margin-bottom: 5px; }
 .ac .rm:after { content: " \00bb"; font-size: 14px; font-size: 1.4rem; }.ac .rm:after:hover { text-decoration: none;}
 .ac button.rm { padding: 3px; background: #cc0000; color: white; text-decoration: none; }.ac button.rm:hover { background: #dd0000; }
 /* Social Media */
