@@ -1,11 +1,11 @@
-/* IE8 Fixes - Reuze v1.01
+/* IE8 Fixes - Reuze v1.1
 
 /* Columns */
-.ac.two-column > *, .ac.three-column > *, .ac.thumb > * { border-right: 0 !important; }
-.ac.two-column > *:first-child +*+*, .ac.two-column > *:first-child +*+*+*+*, .ac.two-column > *:first-child +*+*+*+*+*+* { clear: left; }
-.ac.three-column > *:first-child +*+*+*, .ac.three-column > *:first-child +*+*+*+*+*+* { clear: left; }
-.ac.thumb > *:first-child +*+*+*, .ac.thumb > *:first-child +*+*+*+*+*+* { clear: left; }
+.ac.two-column > *:first-child +*+*, .ac.two-column > *:first-child +*+*+*+*, .ac.two-column > *:first-child +*+*+*+*+*+* { clear: left; border-left: 0; }
+.ac.three-column > *:first-child +*+*+*, .ac.three-column > *:first-child +*+*+*+*+*+*, .ac.thumb.image-none > *:first-child +*+*+*, .ac.thumb.image-none > *:first-child +*+*+*+*+*+*, .ac.thumb.image-left > *:first-child +*+*+*, .ac.thumb.image-left > *:first-child +*+*+*+*+*+*, .ac.thumb.banner-image > *:first-child +*+*+*+*+*, .ac.thumb.banner-image > *:first-child +*+*+*+*+*+*+*+*+*+* { clear: left !important; border-left: 0 !important; }
 @media only screen and (max-width: 60em) {
-    .ac.three-column > *:first-child +*+*+*, .ac.three-column > *:first-child +*+*+*+*+*+*, ac.thumb > *:first-child +*+*+*, .ac.thumb > *:first-child +*+*+*+*+*+* { clear: none; }
-    .ac.three-column > *:first-child +*+*, .ac.three-column > *:first-child +*+*+*+*, .ac.three-column > *:first-child +*+*+*+*+*+*, .ac.thumb > *:first-child +*+*, .ac.thumb > *:first-child +*+*+*+*, .ac.thumb > *:first-child +*+*+*+*+*+* { clear: left; }
+    .ac.three-column > *:first-child +*+*+*, .ac.three-column > *:first-child +*+*+*+*+*+*, .ac.thumb.image-none > *:first-child +*+*+*, .ac.thumb.image-none > *:first-child +*+*+*+*+*+*, .ac.thumb.image-left > *:first-child +*+*+*, .ac.thumb.image-left > *:first-child +*+*+*+*+*+*, .ac.thumb.banner-image > *:first-child +*+*+*+*+*, .ac.thumb.banner-image > *:first-child +*+*+*+*+*+*+*+*+*+* { clear: none !important; border-left: 1px dotted #ddd !important; }
+    .ac.three-column > *:first-child +*+*, .ac.three-column > *:first-child +*+*+*+*, .ac.three-column > *:first-child +*+*+*+*+*+*, .ac.thumb.image-none > *:first-child +*+*, .ac.thumb.image-none > *:first-child +*+*+*+*, .ac.thumb.image-none > *:first-child +*+*+*+*+*+*, .ac.thumb.image-left > *:first-child +*+*, .ac.thumb.image-left > *:first-child +*+*+*+*, .ac.thumb.image-left > *:first-child +*+*+*+*+*+*, .ac.thumb.image-banner > *:first-child +*+*+*, .ac.thumb.image-banner > *:first-child +*+*+*+*+*+* { clear: left; border-left: 0; }
 }
+
+
