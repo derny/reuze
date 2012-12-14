@@ -44,7 +44,7 @@
 
 <h5>Backend/Frontend Harmony</h5><p>Did the front end lead just run out for a latte or phone in sick because it's launch day in Cupertino? Not to worry, back end devs can simply arrange content at reuze.me to mirror functional project specs and start building out their Wordpress loops or Kentico transformations off the provided HTML5 code blocks &mdash; safe in the knowledge that only the CSS will change later.</p>
 
-<h5>Mockup in the Browser</h5><p>Why waste valuable time in Photoshop producing boring grey-box mockups when it's possible to include a single CSS file, some basic HTML for layout, and the desired reuze content blocks to produce a live site within minutes? Look like a rock-star and deliver a working mockup in hours &mdash; not days.</p>
+<h5>Mockup in the Browser</h5><p>Why waste valuable time in Photoshop producing boring grey-box mockups when it's possible to include a single CSS file, some basic HTML for layout, and the desired reuze content blocks to produce a live site within minutes? Look like a rock-star and deliver a working mockup in hours, not days.</p>
 
 <h5>Chamaeleon-Like</h5><p>Reuze adapts seamlessly within other front end frameworks. Drop content containers into Foundation columns, Bootstrap spans, or, 960 grids and watch 'em go. Containers are completely responsive out of the box.</p>
 
@@ -98,7 +98,7 @@ This changes the color of all 'read-more' links for Article content across the e
 
 <h2>Inline Styles</h2>
 
-<p>My ambitious goal of building a robust CSS3/HTML5 framework that does not rely on any Javascript means that in a handful of situations, it's necessary to utilize in-line styles that can dynamically set widths and margins of content using backend methods.</p>
+<p>My ambitious goal of building a robust CSS3/HTML5 framework that does not rely on any Javascript means that in a handful of situations, it's necessary to utilize in-line styles that can dynamically set widths and margins of content using values injected from the backend.</p>
 <p>An example of this is forcing the footer of an article to align itself to the text block above, when a featured image is in the default position (left-aligned). The amount of margin required is calculated by taking the width of the image + 15px.</p>
 
 <pre><code>&lt;footer style="margin-left:90px;"&gt; /* Image is 75x75 px */
