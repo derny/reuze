@@ -1,12 +1,12 @@
 <h1><a href="http://reuze.me">reuze</a> v1.1</h1>
 
-<p>Reuze is a teeny-tiny front end framework (&lt; 10KB at time of writing) that makes structuring HTML and CSS for mid-to-large sized content-rich sites a breeze. It plays nice with other front end frameworks such as Foundation and Boostrap but also works equally well on it's own.</p>
+<p>Reuze is a teeny-tiny front end framework that makes structuring HTML and CSS for mid-to-large sized content-rich sites a breeze. It plays nice with other front end frameworks such as Foundation and Boostrap but also works equally well on it's own.</p>
 
 <p>Simply visit <a href="http://reuze.me">Reuze.me</a> to structure HTML5 code blocks and include the CSS files found here. Code blocks are RDFa Lite compliant and are designed to sit inside a wrapping container with a class that denotes the content type (Articles for instance are wrapped in a Div with a class of 'ac').</p>
 
 <p>Here is a simple Article code block that includes a left-aligned featured image, a caption, read-more link, and meta-data situated below the titles:</p>
 
-<pre><code>&lt;div class="ac" typeof="Article"&gt;
+<pre><code>&lt;div class="ac image-left" typeof="Article"&gt;
 
 &lt;article&gt;
 
@@ -40,7 +40,7 @@
 
 <h2>Benefits of Reuze-ing</h2>
 
-<h5>A Small Footprint &mdash; Ideal for Big Sites</h5><p>Need to build a complex, content-rich site with a few thousand pages and a multitude of layout variations? Reuze has your back with a CSS file that is (at time of writing) &lt; 10kb &mdash; uncompressed. More efficient CSS means easier maintenance and a faster-loading site which is good for both you and the client.</p>
+<h5>A Small Footprint &mdash; Ideal for Big Sites</h5><p>Need to build a complex, content-rich site with a few thousand pages and a multitude of layout variations? Reuze has your back with a content specific CSS files that are &lt; 10kb each &mdash; uncompressed. More efficient CSS means easier maintenance and a faster-loading site which is good for both you and the client.</p>
 
 <h5>Backend/Frontend Harmony</h5><p>Did the front end lead just run out for a latte or phone in sick because it's launch day in Cupertino? Not to worry, back end devs can simply arrange content at reuze.me to mirror functional project specs and start building out their Wordpress loops or Kentico transformations off the provided HTML5 code blocks &mdash; safe in the knowledge that only the CSS will change later.</p>
 
