@@ -73,7 +73,7 @@ This changes the color of all 'read-more' links for Article content across the e
 &lt;link rel="stylesheet" href="css/ie8.css" media="screen" /&gt;
 &lt;![endif]--&gt;</code></pre>
 
-<p>All HTML code snippets available at <a href="http://reuze.me">Reuze.me</a> include support for <a href="http://manu.sporny.org/2012/mythical-differences/">RDFa Lite</a> (a subset of the Resource Description Framework). As of July 2012, this is the <a href="http://www.w3.org/TR/rdfa-lite/">official specification</a> for metadata.</p>
+<p>All HTML code snippets available at <a href="http://reuze.me">Reuze.me</a> include support for <a href="http://manu.sporny.org/2012/mythical-differences/">RDFa Lite</a> (a subset of the Resource Description Framework). As of July 2012, this is the <a href="http://www.w3.org/TR/rdfa-lite/">official specification</a> for 'rich snippets'.</p>
 
 <p>Simply include the following code in the body tag to enable RDFa:</p>
 <pre><code>&lt;body vocab="http://schema.org/"&gt;</code></pre>
