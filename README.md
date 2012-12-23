@@ -111,9 +111,9 @@ This changes the color of all 'read-more' links for Article content across the e
 <p>The site was launched in late November 2012 with the default <strong>Article</strong> content type as it's basis. Many more will be added in the weeks and months to come. Please feel free to email me at <a href="mailto:dennis@denniserny.com">dennis@denniserny.com</a> with thoughts and suggestions on new additions.<p>
 <ul>
 <li><strong>Articles:</strong> Added November 2012</li>
-<li><strong>Products:</strong> December 2012</li>
-<li><strong>Events:</strong> December 2012</li>
-<li><strong>Image Galleries:</strong> Jan 2013</li>
+<li><strong>Products:</strong> January 7th 2012</li>
+<li><strong>Events:</strong> January 21st 2012</li>
+<li><strong>Image Galleries:</strong> Feb 2013</li>
 </ul>
 
 <h2>Browser Support</h2>
