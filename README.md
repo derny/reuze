@@ -6,9 +6,9 @@
 
 <p>Here is a simple Article code block that includes a left-aligned featured image, a caption, read-more link, and meta-data situated below the titles:</p>
 
-<pre><code>&lt;div class="ac image-left" typeof="Article"&gt;
+<pre><code>&lt;div class="ac image-left"&gt;
 
-&lt;article&gt;
+&lt;article typeof="Article"&gt;
 
     &lt;div class="image-feat" property="image" style="width:75px;"&gt; 
        &lt;a href="#"&gt;&lt;img src="http://placehold.it/75x75/efefef" alt="sample image" property="thumbnailUrl"&gt;&lt;/a&gt; 
