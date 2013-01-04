@@ -12,8 +12,8 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 /* Typography */
 p {font-weight: normal; line-height: 1.5; margin-bottom: 8px; }
 h1, h2, h3, h4, h5, h6 {font-weight: bold; color: #333; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px;}
-h1 {font-size: 36px; font-size: 3.6rem;}
-h2 {font-size: 22px; font-size: 2.2rem;}
+h1 {font-size: 30px; font-size: 3.0rem;}
+h2 {font-size: 24px; font-size: 2.4rem;}
 h3 {font-size: 20px; font-size: 2.0rem;}
 h4 {font-size: 18px; font-size: 1.8rem;}
 h5 {font-size: 16px; font-size: 1.6rem;}
