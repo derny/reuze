@@ -1,8 +1,8 @@
 <h1><a href="http://reuze.me">reuze</a> v1.1</h1>
 
-<p>Reuze is a teeny-tiny front end framework that makes structuring HTML and CSS for mid-to-large sized content-rich sites a breeze. It plays nice with other frameworks such as Foundation and Boostrap but also works equally well on it's own.</p>
+<p>Reuze is a teeny-tiny front end framework that makes structuring HTML and CSS for article-heavy sites a breeze. It plays nice with other frameworks such as Foundation and Boostrap but also works equally well on it's own.</p>
 
-<p>Simply visit <a href="http://reuze.me">Reuze.me</a> to structure HTML5 code blocks and include the CSS files found here. Code blocks are RDFa Lite compliant and are designed to sit inside a wrapping container with a class that denotes the content type (Articles for instance are wrapped in a Div with a class of 'ac').</p>
+<p>Simply visit <a href="http://reuze.me">Reuze.me</a> to structure HTML5 code blocks and include the CSS found here. Code blocks are RDFa Lite compliant and are designed to sit inside a wrapping container with a class that denotes the content type (Articles for instance are wrapped in a Div with a class of 'ac').</p>
 
 <p>Here is a simple Article code block that includes a left-aligned featured image, a caption, read-more link, and meta-data situated below the titles:</p>
 
@@ -40,7 +40,7 @@
 
 <h2>Benefits of Reuze-ing</h2>
 
-<h5>A Small Footprint &mdash; Ideal for Big Sites</h5><p>Need to build a complex, content-rich site with a few thousand pages and a multitude of layout variations? Reuze has your back with content-specific CSS files that are &lt; 10kb each &mdash; uncompressed. More efficient and modular CSS means easier maintenance down the road and a faster-loading site &mdash; good for both you and the client.</p>
+<h5>A Small Footprint &mdash; Ideal for Big Sites</h5><p>Need to build a complex, content-rich site with a few thousand pages and a multitude of layout variations? Reuze has your back with an optimized CSS file that is &lt; 10kb &mdash; uncompressed. More efficient and modular CSS means easier maintenance down the road and a faster-loading site &mdash; good for both you and the client.</p>
 
 <h5>Backend/Frontend Harmony</h5><p>Did the front end lead just run out for a latte or phone in sick because it's launch day in Cupertino? Not to worry, back end devs can simply arrange content at reuze.me to mirror functional project specs and start building out their Wordpress loops or Kentico transformations off the provided HTML5 code blocks &mdash; safe in the knowledge that only the CSS will change later.</p>
 
@@ -98,7 +98,7 @@ This changes the color of all 'read-more' links for Article content across the e
 
 <h2>Inline Styles</h2>
 
-<p>My ambitious goal of building a robust CSS3/HTML5 framework that does not rely on any Javascript means that in a handful of situations, it's necessary to utilize in-line styles that can dynamically set widths and margins of content using values injected from the backend.</p>
+<p>My ambitious goal of building a robust CSS3/HTML5 framework for magazine/news sites that does not rely on any Javascript means that in a handful of situations, it's necessary to utilize in-line styles that can dynamically set widths and margins of content using values injected from the backend.</p>
 <p>An example of this is forcing the footer of an article to align itself to the text block above, when a featured image is in the default position (left-aligned). The amount of margin required is calculated by taking the width of the image + 15px.</p>
 
 <pre><code>&lt;footer style="margin-left:90px;"&gt; /* Image is 75x75 px */
@@ -106,15 +106,6 @@ This changes the color of all 'read-more' links for Article content across the e
 &lt;/footer&gt;</pre></code>
 
 <p>If Reuze is being used within the context of a CMS such as Wordpress or Kentico, it's a simple matter of injecting the actual width of the featured image + 15px using PHP or ASP.net. It's also a simple matter to hardcode the margin by adding the CSS rule: <em>.ac footer { margin-left: ??px; }</em> when working outside a CMS or in the situation where the image width will always be the same.</p>
-
-<h2>Development Roadmap</h2>
-<p>The site was launched in late November 2012 with the default <strong>Article</strong> content type as it's basis. Many more will be added in the weeks and months to come. Please feel free to email me at <a href="mailto:dennis@denniserny.com">dennis@denniserny.com</a> with thoughts and suggestions on new additions.<p>
-<ul>
-<li><strong>Articles:</strong> Added November 2012</li>
-<li><strong>Products:</strong> January 7th 2012</li>
-<li><strong>Events:</strong> January 21st 2012</li>
-<li><strong>Image Galleries:</strong> Feb 2013</li>
-</ul>
 
 <h2>Browser Support</h2>
 <ul>
@@ -125,5 +116,5 @@ This changes the color of all 'read-more' links for Article content across the e
 <li>Internet Explorer 8+</li>
 </ul>
 
-<h2>Acknowledgements</h2>
+<h2>Get in Touch!</h2>
 <p><a href="http://www.reuze.me">Reuze.me</a> is a project by <a href="http://twitter.com/denniserny">Dennis Erny</a>.</p>

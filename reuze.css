@@ -51,7 +51,7 @@ table tbody tr:nth-child(even) {background: #f9f9f9;}
 table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: none;}
 
 /* =============================================================================
-   Base CSS (Article Containers)
+   Base CSS (Article Content)
    ========================================================================== */
 
 /* Container */
@@ -90,7 +90,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac .content img.align-right { float: right; margin: 5px 0 3px 15px; vertical-align: top; }
 
 /* =============================================================================
-   Add-on Classes (Article Containers)
+   Add-on Classes
    ========================================================================== */
 
 /* Sidebars */
