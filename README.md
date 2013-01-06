@@ -1,8 +1,8 @@
 <h1><a href="http://reuze.me">reuze</a> v1.1</h1>
 
-<p>Reuze is a teeny-tiny front end framework that makes structuring HTML and CSS for article-heavy sites a breeze. It plays nice with other frameworks such as Foundation and Boostrap but also works equally well on it's own.</p>
+<p>Reuze is a teeny-tiny front end framework that makes structuring HTML and CSS for blogs and article-heavy sites a breeze. It plays nice with other frameworks such as Foundation and Boostrap but also works equally well on it's own.</p>
 
-<p>Simply visit <a href="http://reuze.me">Reuze.me</a> to structure HTML5 code blocks and include the CSS found here. Code blocks are RDFa Lite compliant and are designed to sit inside a wrapping container with a class that denotes the content type (Articles for instance are wrapped in a Div with a class of 'ac').</p>
+<p>Simply visit <a href="http://reuze.me">Reuze.me</a> to structure HTML5 code blocks and include the CSS found here. Code blocks are RDFa Lite compliant and are designed to sit inside a namespaced wrapping container.</p>
 
 <p>Here is a simple Article code block that includes a left-aligned featured image, a caption, read-more link, and meta-data situated below the titles:</p>
 
@@ -56,7 +56,7 @@
 
 <h2>Customizing Reuze</h2>
 
-<p>Reuze is all about creating a consistent framework for delivering similar content in a multitude of ways using the smallest amount of CSS code possible. By design, it only provides the most basic of styling. These styles can be easily modified or built upon by targeting content types, or, individual blocks within the type itself. Let me give you some examples:</p>
+<p>Reuze is all about creating a consistent framework for delivering blog-style content in a multitude of ways using the smallest amount of CSS code possible. By design, it only provides the most basic of styling. These styles can be easily modified or built upon by targeting content types, or, individual blocks within the type itself. Let me give you some examples:</p>
 
 <pre><code>.ac .rm { color: #333; }</pre></code>
 
