@@ -10,7 +10,7 @@
 
 &lt;article typeof="Article"&gt;
 
-    &lt;div class="image-feat" property="image" style="width:75px;"&gt; 
+    &lt;div class="image-feat" style="width:75px;"&gt; 
        &lt;a href="#"&gt;&lt;img src="http://placehold.it/75x75/efefef" alt="sample image" property="thumbnailUrl"&gt;&lt;/a&gt; 
        &lt;p class="caption"&gt;This is a small image caption, 25 words or less is best.&lt;/p&gt;
     &lt;/div&gt;
