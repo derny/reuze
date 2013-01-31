@@ -1,5 +1,5 @@
 /* =============================================================================
-   Base CSS (General) - A nice start for you
+   Reuze Base CSS (General) - A nice start for you
    ========================================================================== */
 
 /* This next line is critical to the overall framework. Remove at your own peril */
@@ -51,12 +51,14 @@ table tbody tr:nth-child(even) {background: #f9f9f9;}
 table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: none;}
 
 /* =============================================================================
-   Base CSS (Article Content)
+   Base CSS for Reuze Article Content
    ========================================================================== */
 
 /* Container */
 .ac { overflow: auto; padding: 10px 0; }
-.ac > * { float: left; border-bottom: 1px dotted #ddd; padding: 0 20px 10px 20px; margin-top: 20px; }
+.ac > * { float: left; border-bottom: 1px dotted #ddd; padding-bottom: 10px; margin-top: 20px; }
+/* Content */
+.ac .content { margin-top: 10px; }
 /* Category */
 .ac .cat { text-transform: uppercase; border-bottom: 1px solid #ccc; margin: 0 0 10px 0; padding-bottom: 3px; color: #666; }
 /* Headings, Paragraphs etc */
@@ -66,7 +68,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac p { text-align: justify; }.ac.three-column p { text-align: left; }
 .ac p, .ac table, .ac blockquote, .ac ul, .ac ol { overflow: hidden; }
 /* Featured Image and Captions */
-.ac .image-feat { position: relative; float: left; margin: 0 15px 5px 0; }
+.ac .image-feat { position: relative; float: left; margin: 0 15px 10px 0; }
 .ac .image-feat p.caption { color: #999; line-height: 1.1; font-size: 11px; font-size: 1.1rem; padding: 4px 0 0 2px; margin: 0; }
 .ac .image-feat a img { -webkit-transition-duration: 0.4s;-moz-transition-duration: 0.4s;-o-transition-duration: 0.4s; max-width: 100% !important; }
 .ac .image-feat a img:hover { -webkit-box-shadow: 0px 0px 3px #bcbcbc; -moz-box-shadow: 0px 0px 3px #bcbcbc; box-shadow: 0px 0px 3px #bcbcbc; }
@@ -90,7 +92,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac .content img.align-right { float: right; margin: 5px 0 3px 15px; vertical-align: top; }
 
 /* =============================================================================
-   Add-on Classes
+   Add-on Classes for Reuze Article Containers
    ========================================================================== */
 
 /* Sidebars */
