@@ -55,8 +55,8 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
    ========================================================================== */
 
 /* Container */
-.ac { overflow: auto; padding: 0; }
-.ac > * { float: left; border-bottom: 1px dotted #ddd; padding: 20px 20px 10px 20px; }
+.ac { overflow: auto; padding: 10px 0; }
+.ac > article, .ac > div { float: left; border-bottom: 1px dotted #ddd; padding: 0 20px 10px 20px; margin-top: 20px; }
 /* Category */
 .ac .cat { text-transform: uppercase; border-bottom: 1px solid #ccc; margin: 0 0 10px 0; padding-bottom: 3px; color: #666; }
 /* Headings, Paragraphs etc */
