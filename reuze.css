@@ -72,7 +72,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac .image-feat a img:hover { -webkit-box-shadow: 0px 0px 3px #bcbcbc; -moz-box-shadow: 0px 0px 3px #bcbcbc; box-shadow: 0px 0px 3px #bcbcbc; }
 .ac header + .image-feat { padding-top: 5px; }
 /* Meta Data */
-.ac .meta { display: inline-block; margin: 0; padding-bottom: 2px; line-height: 1.4; list-style-type: none; }
+.ac .meta { display: inline-block; margin: 0; padding-bottom: 5px; line-height: 1.4; list-style-type: none; }
 .ac .meta li { float: left; font-size: 12px; font-size: 1.2rem; color: #777; }
 .ac footer .meta { margin-bottom: 8px; }
 .ac.image-banner .meta, .ac > * > header:first-child .meta, .ac footer .meta { width: 100%; display: inline-block !important; }
@@ -84,7 +84,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac .rm:after { content: " \00bb"; font-size: 14px; font-size: 1.4rem; }.ac .rm:after:hover { text-decoration: none;}
 .ac button.rm { padding: 3px; background: #cc0000; color: white; text-decoration: none; }.ac button.rm:hover { background: #dd0000; }
 /* Social Media */
-.ac .social-media { margin: 2px 0 4px 0; }
+.ac .social-media { margin: 2px 0 8px 0; }
 /* Articles can contain further images, floated using .align-left and .align-right */
 .ac .content img.align-left { float: left; margin: 5px 15px 3px 0; vertical-align: top; }
 .ac .content img.align-right { float: right; margin: 5px 0 3px 15px; vertical-align: top; }
@@ -104,7 +104,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac.two-column > *:nth-child(2n+1), .ac.three-column > *:nth-child(3n+1), .ac.thumb.image-none > *:nth-child(3n+1), .ac.thumb.image-left > *:nth-child(3n+1), .ac.thumb.image-banner > *:nth-child(5n+1) { clear: left; border-left: 0; }
 .ac.detail.two-column > *, .ac.detail.three-column > * { width: 100%; border: none; }
 .ac.three-column p { overflow: visible; }.ac.three-column footer { margin-left: 0 !important; }
-.ac.detail.two-column .content, .ac.detail.three-column .content { -webkit-column-rule: 1px dotted #ddd; -moz-column-rule: 1px dotted #ddd; column-rule: 1px dotted #ddd; -webkit-column-gap: 30px; -moz-column-gap: 30px; column-gap: 30px;}
+.ac.detail.two-column .content, .ac.detail.three-column .content { -webkit-column-rule: 1px dotted #ddd; -moz-column-rule: 1px dotted #ddd; column-rule: 1px dotted #ddd; -webkit-column-gap: 30px; -moz-column-gap: 30px; column-gap: 30px; margin-bottom: 10px; }
 .ac.detail.two-column .content { -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; }.ac.detail.three-column .content { -webkit-column-count: 3; -moz-column-count: 3; column-count: 3; }
 @media only screen and (max-width: 60em) {
     .ac.two-column p { overflow: visible; }
