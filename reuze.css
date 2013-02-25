@@ -56,7 +56,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 
 /* Container */
 .ac { overflow: auto; margin: 0 -20px 10px 0; }
-.ac > article, .ac > div { float: left; padding: 0 20px 15px 0; width: 100%; }
+.ac > article, .ac > div { float: left; padding: 0 20px 20px 0; width: 100%; }
 /* Category */
 .ac .cat { text-transform: uppercase; border-bottom: 1px dotted #ddd; margin: 0 0 10px 0; padding-bottom: 3px; color: #666; }
 /* Headings, Paragraphs etc */
