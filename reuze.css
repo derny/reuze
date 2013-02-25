@@ -61,7 +61,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac .cat { text-transform: uppercase; border-bottom: 1px dotted #ddd; margin: 0 0 10px 0; padding-bottom: 3px; color: #666; }
 /* Headings, Paragraphs etc */
 .ac header h2, .ac header h3, .ac header h4, .ac header h5, .ac header h6 {margin: 0 0 5px 0 !important;}
-.ac h2.title, .ac h3.title, .ac h4.title, .ac h5.title, .ac h6.title {color: #cc0000;}
+.ac h2.title, .ac h3.title, .ac h4.title, .ac h5.title, .ac h6.title { color: #333; }
 .ac h3.subtitle, .ac h4.subtitle, .ac h5.subtitle, .ac h6.subtitle { color: #666;}
 .ac p { text-align: justify; }.ac.three-column p { text-align: left; }
 .ac p, .ac table, .ac blockquote, .ac ul, .ac ol { overflow: hidden; }
