@@ -1,0 +1,124 @@
+/* =============================================================================
+   Base CSS (General) - A nice start for you
+   ========================================================================== */
+
+/* This next line is critical to the overall framework. Remove at your own peril */
+* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+
+/* HTML and Body */
+html {font-size: 62.5%;}
+body {font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; line-height: 1; color: #222; position: relative;-webkit-font-smoothing: antialiased;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td { margin: 0; padding: 0; font-size: 14px; font-size: 1.4rem; direction: ltr; }
+/* Typography */
+p {font-weight: normal; line-height: 1.5; margin-bottom: 8px; }
+h1, h2, h3, h4, h5, h6 {font-weight: bold; color: #333; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px;}
+h1 {font-size: 30px; font-size: 3.0rem;}
+h2 {font-size: 24px; font-size: 2.4rem;}
+h3 {font-size: 20px; font-size: 2.0rem;}
+h4 {font-size: 18px; font-size: 1.8rem;}
+h5 {font-size: 16px; font-size: 1.6rem;}
+h6 {font-size: 14px; font-size: 1.4rem;}
+em, i {font-style: italic; line-height: inherit;}
+strong, b {font-weight: bold; line-height: inherit;}
+/* Blockquotes */
+blockquote { margin: 0 15px 15px 15px; border-left: 3px solid #eee; }
+blockquote p { text-align: left !important; margin-left: 15px; padding-top: 5px; font-size: 15px; font-size: 1.5rem; font-weight: bold; line-height: 24px; color: #999; font-style: italic; }
+blockquote p:before, blockquote p:after { font-size: 24px; font-size: 2.5rem; vertical-align: middle; }blockquote p:before { content: "\201C\0020"; }blockquote p:after { content: "\0020\201D"; }
+/* Abbreviations */
+abbr, acronym {text-transform: uppercase; font-size: 90%; color: #222; border-bottom: 1px solid #ddd; cursor: help;}
+abbr {text-transform: none;}
+/* Links */
+a {color: #cc0000; text-decoration: none; transition: color .15s linear; -webkit-transition: color .15s linear; -moz-transition: color .15s linear;}
+a:visited {  }
+a:hover {text-decoration: underline;cursor:pointer;}
+a:focus {outline: thin dotted;}
+a:hover, a:active {outline: 0;}
+a.ellipsis { color: #222; font-size: 16px; line-height: 14px; }
+a.ellipsis:hover { color: #cc0000; text-decoration: none; }
+p a, p a:visited {line-height: inherit;}
+/* Lists */
+ul, ol {font-size: 14px; font-size: 1.4rem; line-height: 1.6; margin: 0 0 17px 10px; list-style-position: inside; }
+ul li ul, ul li ol, ol li ul, ol li ol {margin-left: 20px; margin-bottom: 0;}
+/* Tables */
+table {background: #fff; margin: 0 0 18px; border: 1px solid #ddd;}
+table thead, table tfoot {background: #f9f9f9;}
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {font-size: 14px; font-size: 1.4rem; line-height: 18px; text-align: left;}
+table thead tr th, table tfoot tr td {padding: 8px 10px 9px; font-size: 16px; font-size: 1.6rem; font-weight: bold; color: #222;}
+table thead tr th:first-child, table tfoot tr td:first-child {border-left: none;}
+table thead tr th:last-child, table tfoot tr td:last-child {border-right: none;}
+table tbody tr.even, table tbody tr.alt {background: #f9f9f9;}
+table tbody tr:nth-child(even) {background: #f9f9f9;}
+table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: none;}
+
+/* =============================================================================
+   Base CSS (Article Content)
+   ========================================================================== */
+
+/* Container */
+.ac { overflow: auto; margin: 0 -20px 10px 0; }
+.ac > article, .ac > div { float: left; padding: 0 20px 20px 0; width: 100%; }
+/* Category */
+.ac .cat { text-transform: uppercase; border-bottom: 1px dotted #ddd; margin: 0 0 10px 0; padding-bottom: 3px; color: #666; }
+/* Headings, Paragraphs etc */
+.ac header h2, .ac header h3, .ac header h4, .ac header h5, .ac header h6 {margin: 0 0 5px 0 !important;}
+.ac h2.title, .ac h3.title, .ac h4.title, .ac h5.title, .ac h6.title {color: #cc0000;}
+.ac h3.subtitle, .ac h4.subtitle, .ac h5.subtitle, .ac h6.subtitle { color: #666;}
+.ac p { text-align: justify; }.ac.three-column p { text-align: left; }
+.ac p, .ac table, .ac blockquote, .ac ul, .ac ol { overflow: hidden; }
+/* Featured Image and Captions */
+.ac .image-feat { position: relative; float: left; margin: 0 15px 10px 0; }
+.ac .image-feat p.caption { color: #999; line-height: 1.1; font-size: 11px; font-size: 1.1rem; padding: 4px 0 0 2px; margin: 0; }
+.ac .image-feat a img { -webkit-transition-duration: 0.4s;-moz-transition-duration: 0.4s;-o-transition-duration: 0.4s; max-width: 100% !important; }
+.ac .image-feat a img:hover { -webkit-box-shadow: 0px 0px 3px #bcbcbc; -moz-box-shadow: 0px 0px 3px #bcbcbc; box-shadow: 0px 0px 3px #bcbcbc; }
+.ac header + .image-feat { padding-top: 5px; }
+/* Meta Data */
+.ac .meta { display: inline-block; margin: 0; padding-bottom: 3px; line-height: 1.4; list-style-type: none; }
+.ac .meta li { float: left; font-size: 12px; font-size: 1.2rem; color: #777; }
+.ac footer .meta { margin-bottom: 8px; }
+.ac.image-banner .meta, .ac > * > header:first-child .meta, .ac footer .meta { width: 100%; display: inline-block !important; }
+.ac.image-banner .meta li, .ac > * > header:first-child .meta li, .ac footer .meta li { float: left; }
+.ac .meta li, .ac > * > header:first-child .meta li, .ac footer .meta li  { border-left: 1px solid #ccc; padding-left: 6px; margin-right: 6px; }
+.ac .meta li:first-child, .ac > * > header:first-child .meta li:first-child, .ac footer .meta li:first-child { border: none; padding-left: 0; }
+/* Read More links and Buttons */
+.ac .rm { display: block; font-size: 13px; font-size: 1.3rem; margin-bottom: 5px; }
+.ac .rm:after { content: " \00bb"; font-size: 14px; font-size: 1.4rem; }.ac .rm:after:hover { text-decoration: none;}
+.ac button.rm { padding: 3px; background: #cc0000; color: white; text-decoration: none; }.ac button.rm:hover { background: #dd0000; }
+/* Social Media */
+.ac .social-media { margin: 2px 0 8px 0; }
+/* Articles can contain further images, floated using .align-left and .align-right */
+.ac .content img.align-left { float: left; margin: 5px 15px 3px 0; vertical-align: top; }
+.ac .content img.align-right { float: right; margin: 5px 0 3px 15px; vertical-align: top; }
+
+/* =============================================================================
+   Add-on Classes
+   ========================================================================== */
+
+/* Sidebars */
+.ac.sidebar > * { width: 100% !important; }.ac.sidebar p { overflow: visible; }.ac.sidebar footer { margin-left: 0 !important; }
+/* Detail View */
+.ac.detail footer { margin-left: 0 !important; }.ac.detail p, .ac.detail table, .ac.detail blockquote, .ac.detail ul, .ac.detail ol { overflow: visible; }
+/* Columns and Thumb Layouts */
+.ac.thumb h2.title, .ac.thumb h3.title, .ac.thumb h4.title, .ac.thumb h5.title, .ac.thumb h6.title, .ac.thumb header > a { color: #333; }
+.ac.two-column > * { width: 50%; }.ac.three-column > *, .ac.thumb > * { width: 33%; }.ac.thumb.image-banner > * { width: 20%;  }
+.ac.two-column > *:nth-child(2n+1), .ac.three-column > *:nth-child(3n+1), .ac.thumb.image-none > *:nth-child(3n+1), .ac.thumb.image-left > *:nth-child(3n+1), .ac.thumb.image-banner > *:nth-child(5n+1) { clear: left; }
+.ac.detail.two-column > *, .ac.detail.three-column > * { width: 100%; }
+.ac.three-column p { overflow: visible; }.ac.three-column footer { margin-left: 0 !important; }
+.ac.detail.two-column .content, .ac.detail.three-column .content { -webkit-column-rule: 1px dotted #ddd; -moz-column-rule: 1px dotted #ddd; column-rule: 1px dotted #ddd; -webkit-column-gap: 30px; -moz-column-gap: 30px; column-gap: 30px; margin-bottom: 10px; }
+.ac.detail.two-column .content { -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; }.ac.detail.three-column .content { -webkit-column-count: 3; -moz-column-count: 3; column-count: 3; }
+@media only screen and (max-width: 60em) {
+    .ac.two-column p { overflow: visible; }
+    .ac.three-column > *, .ac.thumb > * { width: 50%; }.ac.thumb.image-banner > * { width: 33%; }
+    .ac.three-column > *:nth-child(3n+1), .ac.thumb.image-none > *:nth-child(3n+1), .ac.thumb.image-left > *:nth-child(3n+1), .ac.thumb.image-banner > *:nth-child(5n+1) { clear: none; }
+    .ac.three-column > *:nth-child(2n+1), .ac.thumb.image-none > *:nth-child(2n+1), .ac.thumb.image-left > *:nth-child(2n+1), .ac.thumb.image-banner > *:nth-child(3n+1) { clear: left; }
+    .ac.detail.three-column .content { -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; }
+}
+@media only screen and (max-width: 30em) {
+    .ac p { overflow: visible; }.ac footer { margin-left: 0 !important; }
+    .ac.two-column > *, .ac.three-column > *, .ac.thumb > *, .ac.thumb.image-banner > * { width: 100%; clear: none; }
+    .ac.detail.two-column .content, .ac.detail.three-column .content { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
+}
+/* Image Location */
+.ac.image-banner > * { padding-bottom: 10px; }.ac.image-banner .image-feat {position: relative; margin-bottom: 10px; display: block; float: none; width: 100% !important;}
+/* Image Border */
+.ac.image-border-light .image-feat img { padding: 3px; border: 1px solid #eee; }
+.ac.image-border-dark .image-feat img { padding: 0; border: 3px solid #999; }
