@@ -1,16 +1,3 @@
-
-
-
-
-
-/*
-     FILE ARCHIVED ON 18:02:25 Jul 28, 2014 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 22:27:01 Dec 31, 2014.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
 (function() {
 
 // Placeholders
@@ -66,7 +53,7 @@
 
 // IE6-7 Message
     if ($('html').hasClass('lt-ie8')) {
-        var html = '<div class="container"><div class="browser-message"><h5>Please note that the Reuze framework is not optimized to work with IE version 6 or 7.</h5><p>We recommend upgrading to <a href="/web/20140728180225/http://ie.microsoft.com/">Internet Explorer 9</a>, <a href="/web/20140728180225/http://chrome.google.com">Google Chrome</a>, or <a href="/web/20140728180225/http://mozilla.org/firefox/">Firefox</a>. If you are using IE 9 already, make sure you <a href="/web/20140728180225/http://windows.microsoft.com/en-US/windows7/webpages-look-incorrect-in-Internet-Explorer">turn off "Compatibility View"</a>.</p></div></div>';
+        var html = '<div class="container"><div class="browser-message"><h5>Please note that the Reuze framework is not optimized to work with IE version 6 or 7.</h5><p>We recommend upgrading to <a href="http://ie.microsoft.com/">Internet Explorer 9</a>, <a href="http://chrome.google.com">Google Chrome</a>, or <a href="/web/20140728180225/http://mozilla.org/firefox/">Firefox</a>. If you are using IE 9 already, make sure you <a href="/web/20140728180225/http://windows.microsoft.com/en-US/windows7/webpages-look-incorrect-in-Internet-Explorer">turn off "Compatibility View"</a>.</p></div></div>';
         $('body').prepend(html);
     }
 

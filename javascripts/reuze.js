@@ -1,16 +1,3 @@
-
-
-
-
-
-/*
-     FILE ARCHIVED ON 1:38:26 Jul 29, 2014 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 22:27:01 Dec 31, 2014.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
 (function() {
 
     updateArticleHTML();
@@ -59,7 +46,7 @@
                 for (i = 0; i < blocks - 1; i++) {
                     $('.ac > *:last-child').remove();
                 }
-                var html = '<p>Et denique petentium reprimique mel, no quo laudem convenire mediocritatem. Has contentiones comprehensam an, per consequat necessitatibus eu. Aliquam abhorreant philosophia ut eos. Phaedrum consequat te cum. No est inermis mentitum ponderum. Et pro aeterno eripuit, sea ad reque sonet. Aliquam docendi eum at, summo omnes ut pri. Et has audiam aliquid concludaturque.</p><img src="/web/20140729013826/http://placehold.it/75x75/efefef" class="align-right" alt="sample image" property="thumbnailUrl"><p>Vel te dolor eirmod accumsan, nam rebum harum in. Ex quo delenit nominati concludaturque, veniam dictas senserit duo cu. Maiorum volumus interesset mel at, sed eu nihil laoreet. Dico laoreet ei eos. Per impedit reformidans referrentur eu, stet vide qualisque ut quo, reque facilisi dissentias per eu. Sea ei vero eripuit, his ullum accusam salutandi ex. Ad eum quod magna convenire, laudem omittantur sea at. Laudem deseruisse honestatis sea ei, sanctus molestie his cu.</p><ul><li>Quis egestas tristique odio</li><li>Est adipiscing nulla bibendum</li><li>Dolor eu feugiat rutrum</li></ul><p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.</p><blockquote><p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes accumsan lectores legere me lius quod ii legunt saepius.</p></blockquote><p>Et pro aeterno eripuit, sea ad reque sonet. Aliquam docendi eum at, summo omnes ut pri. Et has audiam aliquid. Vel te dolor eirmod accumsan, nam rebum harum in. Ex quo delenit nominati concludaturque, veniam dictas senserit duo cu. Maiorum volumus interesset mel at, sed eu nihil laoreet.</p>';
+                var html = '<p>Et denique petentium reprimique mel, no quo laudem convenire mediocritatem. Has contentiones comprehensam an, per consequat necessitatibus eu. Aliquam abhorreant philosophia ut eos. Phaedrum consequat te cum. No est inermis mentitum ponderum. Et pro aeterno eripuit, sea ad reque sonet. Aliquam docendi eum at, summo omnes ut pri. Et has audiam aliquid concludaturque.</p><img src="http://placehold.it/75x75/efefef" class="align-right" alt="sample image" property="thumbnailUrl"><p>Vel te dolor eirmod accumsan, nam rebum harum in. Ex quo delenit nominati concludaturque, veniam dictas senserit duo cu. Maiorum volumus interesset mel at, sed eu nihil laoreet. Dico laoreet ei eos. Per impedit reformidans referrentur eu, stet vide qualisque ut quo, reque facilisi dissentias per eu. Sea ei vero eripuit, his ullum accusam salutandi ex. Ad eum quod magna convenire, laudem omittantur sea at. Laudem deseruisse honestatis sea ei, sanctus molestie his cu.</p><ul><li>Quis egestas tristique odio</li><li>Est adipiscing nulla bibendum</li><li>Dolor eu feugiat rutrum</li></ul><p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.</p><blockquote><p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes accumsan lectores legere me lius quod ii legunt saepius.</p></blockquote><p>Et pro aeterno eripuit, sea ad reque sonet. Aliquam docendi eum at, summo omnes ut pri. Et has audiam aliquid. Vel te dolor eirmod accumsan, nam rebum harum in. Ex quo delenit nominati concludaturque, veniam dictas senserit duo cu. Maiorum volumus interesset mel at, sed eu nihil laoreet.</p>';
                 $('.ac .content').html(html);
                 $('select.read-more').prop('selectedIndex', 0).prop('disabled', 'disabled').css('color', '#ddd');
                 $('.ac footer .rm').remove();
@@ -202,7 +189,7 @@
         if ($this.hasClass('image-loc')) {
             var wdt = $('input.width').val();
             var hgt = $('input.height').val();
-            var html = '<div class="image-feat"><a href="#"><img src="/web/20140729013826/http://placehold.it/' + wdt + 'x' + hgt + '/efefef" alt="sample image" property="thumbnailUrl" ></a></div>';
+            var html = '<div class="image-feat"><a href="#"><img src="http://placehold.it/' + wdt + 'x' + hgt + '/efefef" alt="sample image" property="thumbnailUrl" ></a></div>';
             $('.ac .image-feat').remove();
             $('.ac header, .ac footer').removeAttr('style');
             $('.ac').removeClass('image-none').removeClass('image-left').removeClass('image-banner');
@@ -230,7 +217,7 @@
                 }
                 if ($('select.image-links').prop('selectedIndex') === 1) {
                     $('.ac .image-feat a').remove();
-                    $('.ac .image-feat').prepend('<img src="/web/20140729013826/http://placehold.it/' + wdt + 'x' + hgt + '/efefef" alt="sample image" property="thumbnailUrl">');
+                    $('.ac .image-feat').prepend('<img src="http://placehold.it/' + wdt + 'x' + hgt + '/efefef" alt="sample image" property="thumbnailUrl">');
                 }
             }
             if ($('select.meta').prop('selectedIndex')) {
@@ -269,9 +256,9 @@
             $('.ac .image-feat img').remove();
             $('.ac .image-feat a').remove();
             if (!sel) {
-                $('.ac .image-feat').prepend('<a href="#"><img src="/web/20140729013826/http://placehold.it/' + wdt + 'x' + hgt + '/efefef" alt="sample image" property="thumbnailUrl"></a>');
+                $('.ac .image-feat').prepend('<a href="#"><img src="http://placehold.it/' + wdt + 'x' + hgt + '/efefef" alt="sample image" property="thumbnailUrl"></a>');
             } else {
-                $('.ac .image-feat').prepend('<img src="/web/20140729013826/http://placehold.it/' + wdt + 'x' + hgt + '/efefef" alt="sample image" property="thumbnailUrl">');
+                $('.ac .image-feat').prepend('<img src="http://placehold.it/' + wdt + 'x' + hgt + '/efefef" alt="sample image" property="thumbnailUrl">');
             }
         }
 
@@ -423,7 +410,7 @@
         $('input.width').val(wdt);
         $('input.height').val(hgt);
         $('.ac .image-feat').attr('style', 'width:' + wdt + 'px;');
-        $('.ac .image-feat img').attr('src', '/web/20140729013826/http://placehold.it/' + wdt + 'x' + hgt + '/efefef');
+        $('.ac .image-feat img').attr('src', 'http://placehold.it/' + wdt + 'x' + hgt + '/efefef');
         updateArticleHTML();
     });
 
@@ -557,7 +544,7 @@
         $('label.wmax').html('Max: ' + wmax);
         $('label.hmax').html('Max: ' + hmax);
         $('.ac .image-feat').attr('style', 'width:' + wdt + 'px;');
-        $('.ac .image-feat img').attr('src', '/web/20140729013826/http://placehold.it/' + wdt + 'x' + hgt + '/efefef');
+        $('.ac .image-feat img').attr('src', 'http://placehold.it/' + wdt + 'x' + hgt + '/efefef');
     }
 
 //****************************************************************************************************************
