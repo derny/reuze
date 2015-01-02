@@ -38,7 +38,7 @@
 &lt;/article&gt;
 
 &lt;/div&gt;
-</code><pre>
+</code></pre>
 
 <h2>Benefits of Reuze-ing</h2>
 
