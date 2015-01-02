@@ -1,8 +1,8 @@
-<h1><a href="http://reuze.me">reuze</a> v1.1</h1>
+<h1><a href="http://derny.github.io/reuze">reuze</a> v1.1</h1>
 
 <p>Reuze is a teeny-tiny front end framework that makes structuring HTML and CSS for blogs and article-heavy sites a breeze. It plays nice with other frameworks such as Foundation and Boostrap but also works equally well on it's own.</p>
 
-<p>Simply visit <a href="http://reuze.me">Reuze.me</a> to structure HTML5 code blocks and include the CSS found here. Code blocks are RDFa Lite compliant and are designed to sit inside a namespaced wrapping container.</p>
+<p>Simply visit <a href="http://derny.github.io/reuze">derny.github.io/reuze</a> to structure HTML5 code blocks and include the CSS found here. Code blocks are RDFa Lite compliant and are designed to sit inside a namespaced wrapping container.</p>
 
 <p>Here is a simple Article code block that includes a left-aligned featured image, a caption, read-more link, and meta-data situated below the titles:</p>
 
@@ -73,7 +73,7 @@ This changes the color of all 'read-more' links for Article content across the e
 &lt;link rel="stylesheet" href="css/ie8.css" media="screen" /&gt;
 &lt;![endif]--&gt;</code></pre>
 
-<p>All HTML code snippets available at <a href="http://reuze.me">Reuze.me</a> include support for <a href="http://manu.sporny.org/2012/mythical-differences/">RDFa Lite</a> (a subset of the Resource Description Framework). As of July 2012, this is the <a href="http://www.w3.org/TR/rdfa-lite/">official specification</a> for 'rich snippets'.</p>
+<p>All HTML code snippets available at <a href="http://derny.github.io/reuze">derny.github.io/reuze</a> include support for <a href="http://manu.sporny.org/2012/mythical-differences/">RDFa Lite</a> (a subset of the Resource Description Framework). As of July 2012, this is the <a href="http://www.w3.org/TR/rdfa-lite/">official specification</a> for 'rich snippets'.</p>
 
 <p>Simply include the following code in the body tag to enable RDFa:</p>
 <pre><code>&lt;body vocab="http://schema.org/"&gt;</code></pre>
@@ -117,4 +117,4 @@ This changes the color of all 'read-more' links for Article content across the e
 </ul>
 
 <h2>Get in Touch!</h2>
-<p><a href="http://www.reuze.me">Reuze.me</a> is a project by <a href="http://twitter.com/denniserny">Dennis Erny</a>.</p>
+<p><a href="derny.github.io/reuze">Reuze</a> is a project by <a href="http://twitter.com/denniserny">Dennis Erny</a>.</p>
