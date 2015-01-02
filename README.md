@@ -6,7 +6,7 @@
 
 <p>Here is a simple Article code block that includes a left-aligned featured image, a caption, read-more link, and meta-data situated below the titles:</p>
 
-```
+<pre><code>
 &lt;div class="ac image-left"&gt;
 
 &lt;article typeof="Article"&gt;
@@ -38,7 +38,7 @@
 &lt;/article&gt;
 
 &lt;/div&gt;
-```
+</code><pre>
 
 <h2>Benefits of Reuze-ing</h2>
 
