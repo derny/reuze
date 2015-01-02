@@ -81,14 +81,14 @@ This changes the color of all 'read-more' links for Article content across the e
 
 <p>The immediate children of Reuze content containers should be restricted to content blocks, period.</p>
 
-<h5>Good Developer:</h5>
+<h5>The Right Way:</h5>
 <pre><code>&lt;div class="ac"&gt;
    &lt;article typeof="Article"&gt;[...]&lt;/article&gt;
    &lt;article typeof="Article"&gt;[...]&lt;/article&gt;
    &lt;article typeof="Article"&gt;[...]&lt;/article&gt;
 &lt;/div&gt;</pre></code>
 
-<h5>Naughty Developer:</h5>
+<h5>The Wrong Way:</h5>
 <pre><code>&lt;div class="ac"&gt;
    &lt;h2&gt;I am a title that should come before the ac Div&lt;/h2&gt;
    &lt;article typeof="Article"&gt;[...]&lt;/article&gt;
