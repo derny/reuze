@@ -9,7 +9,7 @@
     });
 
 // Expand and Collapse HTML Code
-    $('a.toggle').live('click', function(e) {
+    $(document).on('click', 'a.toggle', function(e) {
         $this = $(this);
         if ($this.text() === "Expand HTML") {
             $this.html('Collapse HTML');
@@ -24,27 +24,27 @@
     });
 
 // Expand and Collapse Buttons
-    $('button#o-toggle.open').live('click', function(e) {
+    $(document).on('click', 'button#o-toggle.open', function(e) {
         e.preventDefault();
         $('form.options').show();
         $('.three').animate({height: '100%'}, 'slow');
         $(this).text('-');
         $('button#o-toggle').attr('class', 'close');
     });
-    $('button#o-toggle.close').live('click', function(e) {
+    $(document).on('click', 'button#o-toggle.close', function(e) {
         e.preventDefault();
         $('.three').animate({height: '58px'}, 'fast');
         $('form.options').hide();
         $(this).text('+');
         $('button#o-toggle').attr('class', 'open');
     });
-    $('button#p-toggle.open').live('click', function(e) {
+    $(document).on('click', 'button#p-toggle.open', function(e) {
         e.preventDefault();
         $('.nine header div p').show();
         $(this).text('-');
         $('button#p-toggle').attr('class', 'close');
     });
-    $('button#p-toggle.close').live('click', function(e) {
+    $(document).on('click', 'button#p-toggle.close', function(e) {
         e.preventDefault();
         $('.nine header div p').hide();
         $(this).text('+');
