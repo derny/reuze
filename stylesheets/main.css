@@ -100,12 +100,12 @@ img { -ms-interpolation-mode: bicubic; }
    Layout
    ========================================================================== */
 
-html { background: url('/images/grey.png') repeat; }
+html { background: url('../images/grey.png') repeat; }
 .wrapper {
     max-width: 1180px;
     min-width: 280px;
     margin: 20px auto;
-    background: url('/images/pattern.png') repeat-x top left;
+    background: url('../images/pattern.png') repeat-x top left;
     background-color: #fff;
     background-color: rgba(255, 255, 255, 0.85);
     padding: 0;
@@ -124,7 +124,7 @@ html { background: url('/images/grey.png') repeat; }
    ========================================================================== */
 
 .twelve > header { position: relative; }
-.twelve > header hgroup { margin: 25px 0 20px 20px; padding-left: 80px; background: url('/images/logo.png') no-repeat; height: 62px; display: inline-block; }
+.twelve > header hgroup { margin: 25px 0 20px 20px; padding-left: 80px; background: url('../images/logo.png') no-repeat; height: 62px; display: inline-block; }
 .twelve > header hgroup h1 { margin: 0; font-size: 36px; font-size: 3.6rem; }
 .twelve > header a:hover { text-decoration: none; }
 
@@ -137,13 +137,13 @@ a.reasons { position: absolute; top: 30px; right: 20px; display: block; color: #
 a.reasons:hover { cursor: pointer; background: #555; }
 #reasons p { border-bottom: 1px #ddd solid; padding-bottom: 5px; margin: -5px 0 7px 0; }
 h3.r1, h3.r2, h3.r3, h3.r4, h3.r5, h3.r6, h3.r7 { padding-left: 42px; line-height: 42px; margin: 0; }
-h3.r1 { background: url('/images/thumb1.png') no-repeat 2px 0; }
-h3.r2 { background: url('/images/thumb2.png') no-repeat 2px 0; }
-h3.r3 { background: url('/images/thumb3.png') no-repeat 2px 0; }
-h3.r4 { background: url('/images/thumb4.png') no-repeat 2px 0; }
-h3.r5 { background: url('/images/thumb5.png') no-repeat 2px 0; }
-h3.r6 { background: url('/images/thumb6.png') no-repeat 2px 0; }
-h3.r7 { background: url('/images/thumb7.png') no-repeat 2px 0; }
+h3.r1 { background: url('../images/thumb1.png') no-repeat 2px 0; }
+h3.r2 { background: url('../images/thumb2.png') no-repeat 2px 0; }
+h3.r3 { background: url('../images/thumb3.png') no-repeat 2px 0; }
+h3.r4 { background: url('../images/thumb4.png') no-repeat 2px 0; }
+h3.r5 { background: url('../images/thumb5.png') no-repeat 2px 0; }
+h3.r6 { background: url('../images/thumb6.png') no-repeat 2px 0; }
+h3.r7 { background: url('../images/thumb7.png') no-repeat 2px 0; }
 
 /* =============================================================================
    Footer
