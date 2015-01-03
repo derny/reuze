@@ -90,7 +90,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 /* Read More links and Buttons */
 .ac .rm { display: block; font-size: 13px; font-size: 1.3rem; margin-bottom: 5px; }
 .ac .rm:after { content: " \00bb"; font-size: 14px; font-size: 1.4rem; }.ac .rm:after:hover { text-decoration: none;}
-.ac button.rm { padding: 3px; background: #999; color: white; border: 0; text-decoration: none; }.ac button.rm:hover { background: #666; }
+.ac button.rm { padding: 3px 5px; background: #999; color: white; border: 0; text-decoration: none; }.ac button.rm:hover { background: #666; }
 /* Social Media */
 .ac .social-media { margin: 2px 0 8px 0; }
 /* Articles can contain further images, floated using .align-left and .align-right */
