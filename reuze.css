@@ -1,5 +1,11 @@
 /* =============================================================================
-   Base CSS (General) - A nice start for you
+   Base CSS - The styles in this first section are only meant to provide a
+   minimal base when utilizing Reuze as a tool to provide quick and dirty
+   mockups. Or, perhaps before a front end developer is even involved in a
+   project and a backend dev needs to insert some content.
+
+   These styles can be removed if Foundation, Bootstrap or any site-wide CSS
+   is already in place.
    ========================================================================== */
 
 /* This next line is critical to the overall framework. Remove at your own peril */
@@ -12,7 +18,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 /* Typography */
 p {font-weight: normal; line-height: 1.5; margin-bottom: 8px; }
 h1, h2, h3, h4, h5, h6 {font-weight: bold; color: #333; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px;}
-h1 {font-size: 30px; font-size: 3.0rem;}
+h1 {font-size: 30px; font-size: 3.0rem;} /* Specifying fonts in px before rems is a fallback that is only in place for IE8 - If not supporting IE8, px font values can be removed. */
 h2 {font-size: 24px; font-size: 2.4rem;}
 h3 {font-size: 20px; font-size: 2.0rem;}
 h4 {font-size: 18px; font-size: 1.8rem;}
@@ -51,7 +57,9 @@ table tbody tr:nth-child(even) {background: #f9f9f9;}
 table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: none;}
 
 /* =============================================================================
-   Base CSS (Article Content)
+   Core CSS - This CSS is what allows Reuze content blocks to be so flexible
+   It can be modified - changing button, heading or link colors are good examples.
+   Class names and rulesets should be largely left alone however.
    ========================================================================== */
 
 /* Container */
@@ -61,7 +69,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac .cat { text-transform: uppercase; border-bottom: 1px dotted #ddd; margin: 0 0 10px 0; padding-bottom: 3px; color: #666; }
 /* Headings, Paragraphs etc */
 .ac header h2, .ac header h3, .ac header h4, .ac header h5, .ac header h6 {margin: 0 0 5px 0 !important;}
-.ac h2.title, .ac h3.title, .ac h4.title, .ac h5.title, .ac h6.title {color: #cc0000;}
+.ac h2.title, .ac h3.title, .ac h4.title, .ac h5.title, .ac h6.title {color: #333;}
 .ac h3.subtitle, .ac h4.subtitle, .ac h5.subtitle, .ac h6.subtitle { color: #666;}
 .ac p { text-align: justify; }.ac.three-column p { text-align: left; }
 .ac p, .ac table, .ac blockquote, .ac ul, .ac ol { overflow: hidden; }
@@ -82,17 +90,12 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 /* Read More links and Buttons */
 .ac .rm { display: block; font-size: 13px; font-size: 1.3rem; margin-bottom: 5px; }
 .ac .rm:after { content: " \00bb"; font-size: 14px; font-size: 1.4rem; }.ac .rm:after:hover { text-decoration: none;}
-.ac button.rm { padding: 3px; background: #cc0000; color: white; text-decoration: none; }.ac button.rm:hover { background: #dd0000; }
+.ac button.rm { padding: 3px; background: #999; color: white; border: 0; text-decoration: none; }.ac button.rm:hover { background: #666; }
 /* Social Media */
 .ac .social-media { margin: 2px 0 8px 0; }
 /* Articles can contain further images, floated using .align-left and .align-right */
 .ac .content img.align-left { float: left; margin: 5px 15px 3px 0; vertical-align: top; }
 .ac .content img.align-right { float: right; margin: 5px 0 3px 15px; vertical-align: top; }
-
-/* =============================================================================
-   Add-on Classes
-   ========================================================================== */
-
 /* Sidebars */
 .ac.sidebar > * { width: 100% !important; }.ac.sidebar p { overflow: visible; }.ac.sidebar footer { margin-left: 0 !important; }
 /* Detail View */
