@@ -12,18 +12,18 @@
 * {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 
 /* HTML and Body */
-html {font-size: 62.5%;}
+html {}
 body {font-family: "ff-tisa-web-pro", sans-serif; line-height: 1; color: #222; position: relative;-webkit-font-smoothing: antialiased;}
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td { margin: 0; padding: 0; font-size: 14px; font-size: 1.4rem; direction: ltr; }
 /* Typography */
 p {font-weight: normal; line-height: 1.5; margin-bottom: 8px; }
-h1, h2, h3, h4, h5, h6 {font-weight: bold; color: #333; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px;}
-h1 {font-size: 30px; font-size: 3.0rem;} /* Specifying fonts in px before rems is a fallback that is only in place for IE8 - If not supporting IE8, px font values can be removed. */
-h2 {font-size: 24px; font-size: 2.4rem;}
-h3 {font-size: 20px; font-size: 2.0rem;}
-h4 {font-size: 18px; font-size: 1.8rem;}
-h5 {font-size: 16px; font-size: 1.6rem;}
-h6 {font-size: 14px; font-size: 1.4rem;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal; color: #333; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px;}
+h1 {font-size: 46px; font-size: 4.6rem; font-family: TolyerBookno2;} /* Specifying fonts in px before rems is a fallback that is only in place for IE8 - If not supporting IE8, px font values can be removed. */
+h2 {font-size: 34px; font-size: 3.4rem; font-family: TolyerBookno2;}
+h3 {font-size: 27px; font-size: 2.7rem; font-family: TolyerBookno2;}
+h4 {font-size: 28px; font-size: 2.8rem; font-family: TolyerLightno2;}
+h5 {font-size: 22px; font-size: 2.2rem; font-family: TolyerLightno2;}
+h6 {font-size: 16px; font-size: 1.6rem; font-family: TolyerLightno3}
 em, i {font-style: italic; line-height: inherit;}
 strong, b {font-weight: bold; line-height: inherit;}
 /* Blockquotes */
