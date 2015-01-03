@@ -194,7 +194,7 @@ a, p, h1, h2, h3, h4, h5, h6, img, td, ul, li, button, div, span, article, foote
    Buttons
    ========================================================================== */
 
-button#reset { width: 60px; padding: 5px; background: #cc0000; color: white; font-weight: bold; text-decoration: none; }
+button#reset { width: 60px; border: 0; padding: 5px; background: #cc0000; color: white; font-weight: bold; text-decoration: none; }
 button#reset:hover {background: #dd0000;}
 button#p-toggle, button#o-toggle { width: 26px; position: absolute; background: #fbfbfb; color: #000; font-weight: bold; text-align: center; padding: 0 5px; }
 button#o-toggle { display: none; left: 158px; top: 18px; }
