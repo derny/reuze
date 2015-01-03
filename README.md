@@ -1,6 +1,6 @@
 <h1><a href="http://derny.github.io/reuze">reuze</a> v1.1</h1>
 
-<p>Reuze is a teeny-tiny front end framework that makes structuring HTML and CSS for blogs and article-heavy sites a breeze. It plays nice with other frameworks such as Foundation and Boostrap but also works equally well on it's own.</p>
+<p>Reuze is a teeny-tiny front-end tool that makes structuring HTML and CSS for blogs and article-heavy sites a breeze. It plays nice with frameworks such as Foundation and Boostrap but also works equally well on it's own.</p>
 
 <p>Simply visit <a href="http://derny.github.io/reuze">derny.github.io/reuze</a> to structure HTML5 code blocks and include the CSS found here. Code blocks are RDFa Lite compliant and are designed to sit inside a namespaced wrapping container.</p>
 
@@ -53,11 +53,11 @@
 
 <h5>Clean, Semantic HTML5</h5><p>Reuze produces code that takes advantage of the latest HTML5 and <a href="http://manu.sporny.org/2012/mythical-differences/">RDFa Lite</a> structures. It's future-friendly for the next evolution of browsers, screen-readers and mobile devices.</p>
 
-<h5>No Javascript</h5><p>This framework places substance above style &mdash; no reliance on Javascript; minimal base styling and full support back to IE8.</p>
+<h5>No Javascript</h5><p>Reuze places substance above style &mdash; no reliance on Javascript; minimal base styling and full support back to IE8.</p>
 
 <h2>Customizing Reuze</h2>
 
-<p>Reuze is all about creating a consistent framework for delivering blog-style content in a multitude of ways using the smallest amount of CSS code possible. By design, it only provides the most basic of styling. These styles can be easily modified or built upon by targeting content types, or, individual blocks within the type itself. Let me give you some examples:</p>
+<p>Reuze is all about creating a consistent and minimal framework for delivering blog-style content in a multitude of ways using the smallest amount of CSS code possible. By design, it only provides the most basic of styling. These styles can be easily modified or built upon by targeting content types, or, individual blocks within the type itself. Let me give you some examples:</p>
 
 <pre><code>.ac .rm { color: #333; }</pre></code>
 
@@ -99,7 +99,7 @@ This changes the color of all 'read-more' links for Article content across the e
 
 <h2>Inline Styles</h2>
 
-<p>My ambitious goal of building a robust CSS3/HTML5 framework for magazine/news sites that does not rely on any Javascript means that in a handful of situations, it's necessary to utilize in-line styles that can dynamically set widths and margins of content using values injected from the backend.</p>
+<p>My goal of building a robust CSS3/HTML5 mini-framework for magazine/news sites that does not rely on any Javascript means that in a handful of situations, it's necessary to utilize in-line styles that can dynamically set widths and margins of content using values injected from the backend.</p>
 <p>An example of this is forcing the footer of an article to align itself to the text block above, when a featured image is in the default position (left-aligned). The amount of margin required is calculated by taking the width of the image + 15px.</p>
 
 <pre><code>&lt;footer style="margin-left:90px;"&gt; /* Image is 75x75 px */
