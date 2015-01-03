@@ -135,7 +135,7 @@ html { background: url('../images/grey.png') repeat; }
 #reasons { margin-top: -50px; }
 a.reasons { position: absolute; top: 30px; right: 20px; display: block; color: #fff; background: #333; padding: 4px 6px; border: 2px solid #000; }
 a.reasons:hover { cursor: pointer; background: #555; }
-#reasons p { border-bottom: 1px #ddd solid; padding-bottom: 5px; margin: -5px 0 7px 0; }
+#reasons p { border-bottom: 1px #ddd solid; padding-bottom: 5px; margin: -5px 0 7px 42px; }
 h3.r1, h3.r2, h3.r3, h3.r4, h3.r5, h3.r6, h3.r7 { padding-left: 42px; line-height: 42px; margin: 0; }
 h3.r1 { background: url('../images/thumb1.png') no-repeat 2px 0; }
 h3.r2 { background: url('../images/thumb2.png') no-repeat 2px 0; }
