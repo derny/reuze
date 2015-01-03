@@ -1,3 +1,5 @@
+@import url("//hello.myfonts.net/count/2cf20d");
+
 /* =============================================================================
    Normalize 2.0.1
    ========================================================================== */
@@ -95,6 +97,28 @@ img { -ms-interpolation-mode: bicubic; }
 .row, .clearfix { *zoom: 1; }
 .row:before, .row:after, .clearfix:before, .clearfix:after { content: ""; display: table; }
 .row:after, .clearfix:after { clear: both; }
+
+/* =============================================================================
+   Fonts
+   ========================================================================== */
+
+@font-face {
+    font-family: 'TolyerBookno2';
+    src: url('../fonts/2CF20D_0_0.eot');
+    src: url('../fonts/2CF20D_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/2CF20D_0_0.woff2') format('woff2'), url('../fonts/2CF20D_0_0.woff') format('woff'), url('../fonts/2CF20D_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TolyerLightno3';
+    src: url('../fonts/2CF20D_1_0.eot');
+    src: url('../fonts/2CF20D_1_0.eot?#iefix') format('embedded-opentype'), url('../fonts/2CF20D_1_0.woff2') format('woff2'), url('../fonts/2CF20D_1_0.woff') format('woff'), url('../fonts/2CF20D_1_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TolyerLightno2';
+    src: url('../fonts/2CF20D_2_0.eot');
+    src: url('../fonts/2CF20D_2_0.eot?#iefix') format('embedded-opentype'), url('../fonts/2CF20D_2_0.woff2') format('woff2'), url('../fonts/2CF20D_2_0.woff') format('woff'), url('../fonts/2CF20D_2_0.ttf') format('truetype');
+}
 
 /* =============================================================================
    Layout
@@ -197,8 +221,8 @@ a, p, h1, h2, h3, h4, h5, h6, img, td, ul, li, button, div, span, article, foote
 button#reset { width: 60px; border: 0; padding: 5px; background: #cc0000; color: white; font-weight: bold; text-decoration: none; }
 button#reset:hover {background: #dd0000;}
 button#p-toggle, button#o-toggle { width: 26px; position: absolute; background: #fbfbfb; color: #000; font-weight: bold; text-align: center; padding: 0 5px; }
-button#o-toggle { display: none; left: 158px; top: 18px; }
-button#p-toggle { top: 16px; right: 15px; }
+button#o-toggle { display: none; left: 16px; top: 16px; }
+button#p-toggle { top: 18px; right: 15px; }
 button#o-toggle:hover, button#p-toggle:hover { background: #fff; }
 
 /* =============================================================================
@@ -294,7 +318,7 @@ img{vertical-align:middle;}
 .chromeframe {margin: 0.2em 0;background: #ccc;color: #000;padding: 0.2em 0;}
 .github {float: right;}
 hr { border: solid #eee; border-width: 1px 0 0; clear: both; margin: 18px 0 21px; height: 0; }
-h1, h2, h3, h4, h5, h6 {font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;}
+h1, h2, h3, h4, h5, h6 {font-family: "TolyerBookno2", sans-serif !important;}
 header hgroup h5 { font-family: arial, helvetica, sans-serif !important; color: #666; margin: 2px 0 0 2px; }
 h4.special { color: #999; margin-bottom: 20px; }
 ol li { margin-bottom: 10px; }
