@@ -17,7 +17,7 @@ body {font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td { margin: 0; padding: 0; font-size: 14px; font-size: 1.4rem; direction: ltr; }
 /* Typography */
 p {font-weight: normal; line-height: 1.5; margin-bottom: 8px; }
-h1, h2, h3, h4, h5, h6 {font-weight: bold; color: #333; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px;}
+h1, h2, h3, h4, h5, h6 {font-weight: bold; color: #337ab7; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px;}
 h1 {font-size: 30px; font-size: 3.0rem;} /* Specifying fonts in px before rems is a fallback that is only in place for IE8 - If not supporting IE8, px font values can be removed. */
 h2 {font-size: 24px; font-size: 2.4rem;}
 h3 {font-size: 20px; font-size: 2.0rem;}
@@ -34,13 +34,13 @@ blockquote p:before, blockquote p:after { font-size: 24px; font-size: 2.5rem; ve
 abbr, acronym {text-transform: uppercase; font-size: 90%; color: #222; border-bottom: 1px solid #ddd; cursor: help;}
 abbr {text-transform: none;}
 /* Links */
-a {color: #cc0000; text-decoration: none; transition: color .15s linear; -webkit-transition: color .15s linear; -moz-transition: color .15s linear;}
+a {color: #337ab7; text-decoration: none; transition: color .15s linear; -webkit-transition: color .15s linear; -moz-transition: color .15s linear;}
 a:visited {  }
-a:hover {text-decoration: underline;cursor:pointer;}
+a:hover {text-decoration: underline;cursor:pointer; color: #23527c;}
 a:focus {outline: thin dotted;}
 a:hover, a:active {outline: 0;}
 a.ellipsis { color: #222; font-size: 16px; line-height: 14px; }
-a.ellipsis:hover { color: #cc0000; text-decoration: none; }
+a.ellipsis:hover { color: #333; text-decoration: none; }
 p a, p a:visited {line-height: inherit;}
 /* Lists */
 ul, ol {font-size: 14px; font-size: 1.4rem; line-height: 1.6; margin: 0 0 17px 10px; list-style-position: inside; }
@@ -69,7 +69,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 .ac .cat { text-transform: uppercase; border-bottom: 1px dotted #ddd; margin: 0 0 10px 0; padding-bottom: 3px; color: #666; }
 /* Headings, Paragraphs etc */
 .ac header h2, .ac header h3, .ac header h4, .ac header h5, .ac header h6 {margin: 0 0 5px 0 !important;}
-.ac h2.title, .ac h3.title, .ac h4.title, .ac h5.title, .ac h6.title {color: #333;}
+.ac h2.title, .ac h3.title, .ac h4.title, .ac h5.title, .ac h6.title {color: #337ab7;}
 .ac h3.subtitle, .ac h4.subtitle, .ac h5.subtitle, .ac h6.subtitle { color: #666;}
 .ac p { text-align: justify; }.ac.three-column p { text-align: left; }
 .ac p, .ac table, .ac blockquote, .ac ul, .ac ol { overflow: hidden; }
@@ -90,7 +90,7 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 /* Read More links and Buttons */
 .ac .rm { display: block; font-size: 13px; font-size: 1.3rem; margin-bottom: 5px; }
 .ac .rm:after { content: " \00bb"; font-size: 14px; font-size: 1.4rem; }.ac .rm:after:hover { text-decoration: none;}
-.ac button.rm { padding: 3px 5px; background: #999; color: white; border: 0; text-decoration: none; }.ac button.rm:hover { background: #666; }
+.ac button.rm { padding: 3px; background: #999; color: white; border: 0; text-decoration: none; }.ac button.rm:hover { background: #666; }
 /* Social Media */
 .ac .social-media { margin: 2px 0 8px 0; }
 /* Articles can contain further images, floated using .align-left and .align-right */
@@ -101,7 +101,6 @@ table tbody tr td {color: #333; padding: 9px 10px; vertical-align: top; border: 
 /* Detail View */
 .ac.detail footer { margin-left: 0 !important; }.ac.detail p, .ac.detail table, .ac.detail blockquote, .ac.detail ul, .ac.detail ol { overflow: visible; }
 /* Columns and Thumb Layouts */
-.ac.thumb header > a { color: #333; }
 .ac.two-column > * { width: 50%; }.ac.three-column > *, .ac.thumb > * { width: 33%; }.ac.thumb.image-banner > * { width: 20%;  }
 .ac.two-column > *:nth-child(2n+1), .ac.three-column > *:nth-child(3n+1), .ac.thumb.image-none > *:nth-child(3n+1), .ac.thumb.image-left > *:nth-child(3n+1), .ac.thumb.image-banner > *:nth-child(5n+1) { clear: left; }
 .ac.detail.two-column > *, .ac.detail.three-column > * { width: 100%; }
