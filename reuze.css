@@ -17,7 +17,7 @@ body {font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td { margin: 0; padding: 0; font-size: 14px; font-size: 1.4rem; direction: ltr; }
 /* Typography */
 p {font-weight: normal; line-height: 1.5; margin-bottom: 8px; }
-h1, h2, h3, h4, h5, h6 {font-weight: bold; color: #337ab7; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px;}
+h1, h2, h3, h4, h5, h6 {font-weight: bold; color: #333; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px;}
 h1 {font-size: 30px; font-size: 3.0rem;} /* Specifying fonts in px before rems is a fallback that is only in place for IE8 - If not supporting IE8, px font values can be removed. */
 h2 {font-size: 24px; font-size: 2.4rem;}
 h3 {font-size: 20px; font-size: 2.0rem;}
@@ -39,8 +39,8 @@ a:visited {  }
 a:hover {text-decoration: underline;cursor:pointer; color: #23527c;}
 a:focus {outline: thin dotted;}
 a:hover, a:active {outline: 0;}
-a.ellipsis { color: #222; font-size: 16px; line-height: 14px; }
-a.ellipsis:hover { color: #333; text-decoration: none; }
+a.ellipsis { color: #337ab7; font-size: 16px; line-height: 14px; }
+a.ellipsis:hover { color: #23527c; text-decoration: none; }
 p a, p a:visited {line-height: inherit;}
 /* Lists */
 ul, ol {font-size: 14px; font-size: 1.4rem; line-height: 1.6; margin: 0 0 17px 10px; list-style-position: inside; }
